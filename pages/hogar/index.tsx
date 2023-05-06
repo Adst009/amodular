@@ -1,6 +1,6 @@
 import Layout from "../../components/general/layout/layout.component";
 import {NextPage} from "next";
-import RemodelaComponent from "../../components/views/home/remodela.component";
+import RemodelaComponent from "../../components/general/layout/header/header.component";
 
 
 const Home: NextPage = () => {

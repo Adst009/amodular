@@ -1,5 +1,4 @@
 import Head from "next/head";
-import RemodelaComponent from "./remodela.component";
 
 
 const HomePage = () => {
@@ -9,7 +8,7 @@ const HomePage = () => {
             <Head>
                 <title></title>
             </Head>
-            <RemodelaComponent/>
+            
 
         </>
     );
