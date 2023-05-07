@@ -5,7 +5,40 @@ export default function Footer() {
 
     return(
         <>
+        <div className={styles.content_footer0}>
+            <div>
+                <h2>Cuentanos sobre tu proyecto</h2>
+            </div>
+
+            <div>
+                <form>
+                    <div className={styles.div_form}>
+                        <div>
+                        <input type="text"  name="name" placeholder="Nombres*"/>
+                        </div>
+                        <div>
+                        <input type="text"  name="phone" placeholder="Apellidos*"/>
+                        </div>
+                    </div>
+                    <div className={styles.div_form}>
+                        <div>
+                        <input type="number"  name="email" placeholder="Cel/tel*"/>
+                        </div>
+                        <div>
+                        <input type="email"  name="email" placeholder="E-mail*"/>
+                        </div>
+                    </div>
+                        <div >
+                            <button>Contactanos</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+
             <div className={"flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row h-96 justify-center gap-10 pt-20 "+ styles.content_footer}>
+
+
+
                 <div className={"w-80 md:w-60 md:h-64 lg:w-60 " + styles.margin_footer} >
                     <img src='/images/logo.png' alt="Amodular" title="amodular" />
 

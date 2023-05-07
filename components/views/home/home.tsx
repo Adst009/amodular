@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <>
             <Head>
-                <title></title>
+                <title>Hogar</title>
             </Head>
             
 
