@@ -1,16 +1,12 @@
-import RemodelaComponent from "./header/header.component";
-import FooterComponent from "../footer/footer.component";
+import Header from "./header/header.component";
+import Footer from "../footer/footer.component";
 
-
-export default function Layout({children}: any) {
-
-    return(
-        <>
-
-            {/* <HeaderComponent/> */}
-            <RemodelaComponent/>
-            {children}
-            <FooterComponent/>
-        </>
-    );
+export default function Layout({ children }: any) {
+  return (
+    <>
+      <Header />
+      {children}
+      <Footer />
+    </>
+  );
 }
