@@ -14,11 +14,13 @@ const Kitchen = () => {
       <h3 className={"text-4xl pl-4 font-medium text-white " + styles.title_main}>
         tu cocina
       </h3>
-      <p className="text-white my-14 w-8/12 pl-2">
+
+      <div>
         slider
-      </p>
-      <button className="text-white px-11 py-2 ml-2">Contactanos</button>
+      </div>
     </div>
+
+
   )
 }
 

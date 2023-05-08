@@ -5,3 +5,9 @@
 .container_text button{
     background-color: #e20613;
 }
+
+@media (min-width: 768px){
+    .title_main {
+        line-height: 4.5rem;
+    }
+}
