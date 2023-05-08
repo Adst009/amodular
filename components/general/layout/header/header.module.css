@@ -1,10 +1,8 @@
 .container{
-    background-image: url("/images/parte1sombra.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
-    height: auto;
-    padding-bottom: 14px;
+    height: 100vh;
 }
 
 .title_main {

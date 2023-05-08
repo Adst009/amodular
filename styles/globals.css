@@ -7,6 +7,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-image: url("/images/general/general_background.png");
+    background-size: cover;
+    height: auto;
+    scroll-behavior: smooth;
 }
 
 a {
