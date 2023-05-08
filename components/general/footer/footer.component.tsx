@@ -6,11 +6,11 @@ export default function Footer() {
     return(
         <>
         <div className={styles.content_footer0}>
-            <div>
+            {/* <div>
                 <h2>Cuentanos sobre tu proyecto</h2>
-            </div>
+            </div> */}
 
-            <div>
+            {/* <div>
                 <form>
                     <div className={styles.div_form}>
                         <div>
@@ -32,7 +32,7 @@ export default function Footer() {
                             <button>Contactanos</button>
                         </div>
                 </form>
-            </div>
+            </div> */}
         </div>
 
             <div className={"flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row h-96 justify-center gap-10 pt-20 "+ styles.content_footer}>

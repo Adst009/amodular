@@ -3,17 +3,8 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
-
-    height: 90vh;
-
-}
-.container h1{
-    font-size: 200px;
-    font-weight: bold;
-    line-height: 150px;
-
     height: auto;
-
+    padding-bottom: 14px;
 }
 
 .title_main {
@@ -24,7 +15,9 @@
     background-color: #e20613;
 }
 
-.container_text h1,
-.container_text h2{
-    /* font-size: 100px; */
+
+@media (min-width: 768px){
+    .title_main {
+        line-height: 6.5rem;
+    }
 }
