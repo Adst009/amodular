@@ -8,10 +8,10 @@ const Kitchen = () => {
         styles.container_text
       }
     >
-      <h2 className={"text-8xl font-black text-white " + styles.title_main}>
+      <h2 className={"text-4xl font-black text-white " + styles.title_main}>
         PERSONALIZAMOS
       </h2>
-      <h3 className={"text-8xl pl-4 font-medium text-white " + styles.title_main}>
+      <h3 className={"text-4xl pl-4 font-medium text-white " + styles.title_main}>
         tu cocina
       </h3>
       <p className="text-white my-14 w-8/12 pl-2">
