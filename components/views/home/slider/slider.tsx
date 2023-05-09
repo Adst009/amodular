@@ -9,13 +9,13 @@ import styles from "./slider.module.css"
 function Slider() {
     const slides =[
         {
-            url:'/images/personalize/res1.png'
+            url:'/images/Personalize/res1.png'
         },
         {
-            url:'/images/personalize/res2.png'
+            url:'/images/Personalize/res2.png'
         },
         {
-            url:'/images/personalize/res3.png'
+            url:'/images/Personalize/res3.png'
         }
     ];
 
