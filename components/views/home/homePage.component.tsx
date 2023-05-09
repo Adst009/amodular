@@ -3,6 +3,7 @@ import Work from "./work/work.component";
 import Kitchen from "./kitchen/kitchen.component";
 import Make from "./make/make.component";
 import Results from "./results/results.component";
+import Slider from "./slider/slider";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
         <Kitchen />
         <Make/>
         <Results/>
+        
     </div>
   );
 };

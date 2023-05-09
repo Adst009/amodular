@@ -18,16 +18,7 @@ const Results = () => {
           
         </div>
         <div className={styles.container}>
-            <h1>ggg</h1>
-            <h1>ggg</h1>
-            <h1>ggg</h1>
-            <h1>ggg</h1>
-            <h1>ggg</h1>
-            <h1>ggg</h1>
-            <h1>ggg</h1>
-            <h1>ggg</h1>
-            <h1>ggg</h1>
-            <h1>ggg</h1>
+           <h2></h2>
         </div>
       </div>
        

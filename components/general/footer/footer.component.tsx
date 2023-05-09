@@ -69,7 +69,7 @@ export default function Footer() {
                                  width={50}
                                  height={50}
                                  title="logo telefono"/>
-                            <div>(+57)3001234567</div>
+                            <div className={styles.textico}>(+57)3001234567</div>
                         </div>
                         <div className={styles.items}>
                             <img src={"./images/horario.png"}
