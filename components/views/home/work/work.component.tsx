@@ -12,10 +12,10 @@ const Work = () => {
           styles.container_text
         }
       >
-        <h2 className={"text-4xl font-black text-white " + styles.title_main}>
+        <h2 className={"text-8xl font-black text-white leading-4" + styles.title_main}>
           NUESTRO
         </h2>
-        <h3 className={"text-4xl pl-4 font-medium text-white " + styles.title_main}>
+        <h3 className={"text-8xl pl-4 font-medium text-white " + styles.title_main}>
           trabajo
         </h3>
         <p className="text-white my-14 w-12/12 pl-2">
