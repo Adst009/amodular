@@ -22,6 +22,10 @@ a {
   box-sizing: border-box;
 }
 
+.rounded-2xl{
+  border-radius: 0;
+}
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
