@@ -22,16 +22,6 @@ a {
   box-sizing: border-box;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-
-    background-image: url("/images/general_background.png");
-    background-size: cover;
-    height: auto;
-    scroll-behavior: smooth;
-  }
-
-} */
+.swiper-wrapper {
+  margin-top: 77px !important;
+}

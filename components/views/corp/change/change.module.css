@@ -1,0 +1,13 @@
+.container{
+    background-image: url("/images/personalize/res4.png");
+    background-repeat: no-repeat;
+    
+}
+
+.title_main {
+    line-height: 2.5rem;
+}
+
+.container_text button{
+    background-color: #e20613;
+}
