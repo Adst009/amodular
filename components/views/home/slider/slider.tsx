@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs'
-import {RxDotFilled} from 'react-icons/rx'
+import {RxDividerHorizontal} from 'react-icons/rx'
+import HorizontalPaginator from "./paginator";
+import styles from "./slider.module.css"
+
+
 
 function Slider() {
     const slides =[
@@ -34,28 +38,11 @@ function Slider() {
          setCurrentIndex(slideIndex)
      }
     return(
-        <div className="max-w-[1600px] h-[760] w-full py-16 px-4 relative group m-auto" >
+        <div className={"max-w-[1200px]   w-full py-16 px-4 relative group m-auto" } >
             <div style={{backgroundImage:`url(${slides[currentIndex].url})`}} className="w-full h-full rounded-2xl bg-center bg-cover duration-500">
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                
+                {/* <img src={`${slides[currentIndex].url})`} alt="" /> */}
+                <img className={styles.image} src={`url(${slides[currentIndex].url})`} alt="" />
+              
                
                 
 
@@ -78,10 +65,12 @@ function Slider() {
                 <BsChevronCompactRight onClick={nextSlide} size={40}/>
             </div>
 
-            <div className="flex top-4 justify-center py-2">
+            <div className={"flex top-4 justify-center py-2"}>
                 {slides.map((slide, slideIndex) => (
                     <div key={slideIndex} onClick={()=> goToSlide(slideIndex)} className="text-2xl cursor-pointer">
-                        <RxDotFilled/>
+                        
+                        
+                        <RxDividerHorizontal className={styles.paginator} size={60} color="red" />
                     </div>
                 ))}
             </div>

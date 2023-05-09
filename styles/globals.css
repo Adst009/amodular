@@ -25,3 +25,7 @@ a {
 .swiper-wrapper {
   margin-top: 77px !important;
 }
+
+.rounded-2xl{
+  border-radius: 0;
+}
