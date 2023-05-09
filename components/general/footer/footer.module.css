@@ -1,3 +1,19 @@
+.content_footer0{
+    display: flex;
+}
+
+.content_footer0 h2{
+    color: red;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.div_form{
+    display: flex;
+}
+
+
+
 .content_footer {
     display: flex;
     justify-content: space-evenly;

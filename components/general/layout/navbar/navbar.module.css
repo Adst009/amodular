@@ -52,15 +52,15 @@
     background: #323032;
     min-width: 200px;
     max-height: 310px;
-    padding: 20px;
+    padding: 0 20px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
-.dropdown_content p {
-    font-size: 18px;
+.dropdown_content a {
+    font-size: 13px;
     cursor: pointer;
-    color: black;
+    color: white;
     text-decoration: none;
     display: block;
 }
@@ -77,11 +77,15 @@
 .dropdown:hover .dropdown_content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .botonMovil {
     display: none;
+}
+
+.blog_item a:hover{
+    border-bottom: 2px solid red;
+    color: white;
 }
 
 /* RESPONSIVE */

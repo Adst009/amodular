@@ -64,117 +64,119 @@ const Navbar = () => {
 
   return (
     <div className="flex h-28 items-center place-content-around">
-      <div className="inline-flex w-auto ">
+      <div className="inline-flex w-9/12 ">
         <img
           src="/images/home/logo.png"
-          className="h-20 mr-3"
+          className="h-18 mr-3"
           alt="logo_amodular"
           title="logo_amodular"
         />
 
-        <div className={"flex items-center pl-10 " + styles.list_menu}>
+        <div className={"w-full flex items-center pl-10 " + styles.list_menu}>
           <ul
             className={
-              "flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-5 " +
+              "w-full flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-5 " +
               menu
             }
           >
-            <div className={styles.dropdown}>
-              <li>
-                <Link href={`/`} title="sdfsafsdf">
-                  <a title="dsfsdfsg">
-                    <button
-                      id="dropdownNavbarLink"
-                      data-dropdown-toggle="dropdownNavbar"
-                      className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
-                    >
-                      Hogar{" "}
-                      <svg
-                        className="w-5 h-5"
-                        aria-hidden="true"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
+            <div className="flex gap-6 flex-grow">
+              <div className={styles.dropdown}>
+                <li>
+                  <Link href={`/`} title="sdfsafsdf">
+                    <a title="dsfsdfsg">
+                      <button
+                        id="dropdownNavbarLink"
+                        data-dropdown-toggle="dropdownNavbar"
+                        className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                       >
-                        <path
-                          fillRule="evenodd"
-                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                          clip-rule="evenodd"
-                        ></path>
-                      </svg>
-                    </button>
-                  </a>
-                </Link>
-              </li>
+                        Hogar{" "}
+                        <svg
+                          className="w-5 h-5"
+                          aria-hidden="true"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </svg>
+                      </button>
+                    </a>
+                  </Link>
+                </li>
 
-              <div className={styles.dropdown_content}>
-                {services?.map((item: any, index: number) => {
-                  return (
-                    <li key={index}>
-                      <Link href={`/servicios${item.url}`} title={item.title}>
-                        <a className={"navbar-brand"} title={item.title}>
-                          {item.title}
-                        </a>
-                      </Link>
-                    </li>
-                  );
-                })}
+                <div className={styles.dropdown_content}>
+                  {services?.map((item: any, index: number) => {
+                    return (
+                      <li key={index}>
+                        <Link href={`/servicios${item.url}`} title={item.title}>
+                          <a className={"navbar-brand"} title={item.title}>
+                            {item.title}
+                          </a>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-            <div className={styles.dropdown}>
-              <li>
-                <Link href={`/`} title="sdfsafsdf">
-                  <a title="dsfsdfsg">
-                    <button
-                      id="dropdownNavbarLink"
-                      data-dropdown-toggle="dropdownNavbar"
-                      className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
-                    >
-                      Corporativo{" "}
-                      <svg
-                        className="w-5 h-5"
-                        aria-hidden="true"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg"
+              <div className={styles.dropdown}>
+                <li>
+                  <Link href={`/`} title="sdfsafsdf">
+                    <a title="dsfsdfsg">
+                      <button
+                        id="dropdownNavbarLink"
+                        data-dropdown-toggle="dropdownNavbar"
+                        className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                       >
-                        <path
-                          fillRule="evenodd"
-                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                          clip-rule="evenodd"
-                        ></path>
-                      </svg>
-                    </button>
-                  </a>
-                </Link>
-              </li>
+                        Corporativo{" "}
+                        <svg
+                          className="w-5 h-5"
+                          aria-hidden="true"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </svg>
+                      </button>
+                    </a>
+                  </Link>
+                </li>
 
-              <div className={styles.dropdown_content}>
-                {services2?.map((item: any, index: number) => {
-                  return (
-                    <li key={index}>
-                      <Link
-                        key={index}
-                        href={`/servicios${item.url}`}
-                        title={item.title}
-                      >
-                        <a className={"navbar-brand"} title={item.title}>
-                          {item.title}
-                        </a>
-                      </Link>
-                    </li>
-                  );
-                })}
+                <div className={styles.dropdown_content}>
+                  {services2?.map((item: any, index: number) => {
+                    return (
+                      <li key={index}>
+                        <Link
+                          key={index}
+                          href={`/servicios${item.url}`}
+                          title={item.title}
+                        >
+                          <a className={"navbar-brand"} title={item.title}>
+                            {item.title}
+                          </a>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </div>
               </div>
+              <li className={styles.blog_item}>
+                <a
+                  href="#"
+                  className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >
+                  Blog
+                </a>
+              </li>
             </div>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Blog
-              </a>
-            </li>
 
             <div className="flex-initial w-32 items-center ">
               <div className={"flex w-auto gap-4 " + styles.socials_mob}>
