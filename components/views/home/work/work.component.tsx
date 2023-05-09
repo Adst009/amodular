@@ -24,7 +24,7 @@ const Work = () => {
           adipisci autem, ipsa deserunt quisquam vel praesentium repellendus,
           veritatis cumque minima.
         </p>
-        <button className="text-white px-2 py-2 ml-2 w-10/12">Contactanos</button>
+        <button className="text-white px-2 py-2 ml-2 w-10/12">Contáctanos</button>
       </div>
     </div>
   );

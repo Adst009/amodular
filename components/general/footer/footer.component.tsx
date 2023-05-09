@@ -61,7 +61,7 @@ export default function Footer() {
                              width={50}
                              height={50}
                              title="logo ubicacion"/>
-                        <div>Calle 29a #22-44 Cartagena,Bolivar,Colombia</div>
+                        <p>Calle 29a #22-44 Cartagena,Bolivar,Colombia</p>
                         </div>
                         <div className={styles.items}>
                             <img src={"./images/telefono.png"}
@@ -69,7 +69,7 @@ export default function Footer() {
                                  width={50}
                                  height={50}
                                  title="logo telefono"/>
-                            <div className={styles.textico}>(+57)3001234567</div>
+                            <div className={styles.textico}><p>(+57)3001234567</p></div>
                         </div>
                         <div className={styles.items}>
                             <img src={"./images/horario.png"}
@@ -77,7 +77,7 @@ export default function Footer() {
                                  width={50}
                                  height={50}
                                  title="logo horario"/>
-                            <div>Horario de atención</div>
+                            <div><p>Horario de atención</p></div>
                         </div>
                     </div>
                 </div>
@@ -87,17 +87,20 @@ export default function Footer() {
                             <h4>Redes sociales</h4>
                         </div>
                         <div className={styles.items}>
-                            <img src={"./images/instagram.png"}
+                        <a href="https://www.instagram.com/amodular.col/" target='_blank'><img src={"./images/instagram.png"}
                                  alt={"logo instagram"}
                                  width={50}
                                  height={50}
                                  title="logo instagram"/>
+                                 </a>
+                                 <a href="https://www.facebook.com/Amodular.Arquitectura.Interior/" target='_blank'>
                             <img src={"./images/facebook.png"}
                                  alt={"logo facebook"}
                                  width={50}
                                  height={50}
                                  title="logo facebook"/>
-                            <img src={"./images/tik-tok.png"}
+                                 </a>
+                            {/* <img src={"./images/tik-tok.png"}
                                  alt={"logo tiktok"}
                                  width={50}
                                  height={50}
@@ -106,7 +109,7 @@ export default function Footer() {
                                  alt={"logo youtube"}
                                  width={50}
                                  height={50}
-                                 title="logo youtube"/>
+                                 title="logo youtube"/> */}
 
                         </div>
                     </div>
