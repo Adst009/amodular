@@ -1,9 +1,10 @@
+import Slider from "../slider/slider";
 import styles from "./work.module.css";
 const Work = () => {
   return (
     <div className="flex">
       <div className="w-6/12">
-        <h3>sliderrrr</h3>
+        <Slider/>
       </div>
       <div 
         className={
