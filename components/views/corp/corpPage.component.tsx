@@ -8,7 +8,6 @@ const CorpPage = () => {
   return (
     <>
       <Change />
-      <div>
         <Process />
         <Timeline
           title="TOMA DE CONTACTO"
@@ -38,6 +37,8 @@ const CorpPage = () => {
               expedita."
           number="04"
         />
+      <div className="flex items-center justify-center">
+        <img className="w-8/12 md:w-4/12 " src="./images/corp/remodel.png" alt="" />
       </div>
     </>
   );

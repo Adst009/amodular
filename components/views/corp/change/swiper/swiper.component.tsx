@@ -15,7 +15,7 @@ const SwiperCorp = () => {
       spaceBetween={10}
       centeredSlides={false}
       pagination={{
-        clickable: true,
+        type: "fraction",
       }}
       modules={[Pagination]}
       className={"mySwiper " + styles.Swiper}
@@ -79,6 +79,19 @@ const SwiperCorp = () => {
       <SwiperSlide>
         <div className={"px-10 sm:px-0 " + styles.SwiperSlide}>
           <img src="/images/corp/slider/image5.png" alt="image5" />
+          <div className={"bg-zinc-700  border-b-2 border-l-2 border-r-2 border-red-700 mt-[-22px] p-3 " + styles.container_text} >
+            <h3 className="font-bold text-lg"> <strong className="text-red-600">PROYECTO</strong> OFICINAS 001</h3>
+            <p className="text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+              voluptates! Nesciunt repellendus
+            </p>
+          </div>
+          <button>contáctanos</button>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className={"px-10 sm:px-0 " + styles.SwiperSlide}>
+          <img src="/images/corp/slider/image4.png" alt="image4" />
           <div className={"bg-zinc-700  border-b-2 border-l-2 border-r-2 border-red-700 mt-[-22px] p-3 " + styles.container_text} >
             <h3 className="font-bold text-lg"> <strong className="text-red-600">PROYECTO</strong> OFICINAS 001</h3>
             <p className="text-sm">

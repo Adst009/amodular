@@ -6,8 +6,10 @@
     left: -50px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
     .container_img img{
         height: 250px;
     }
 }
+
+

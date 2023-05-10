@@ -53,6 +53,11 @@ a {
   margin-top: 77px !important;
 }
 
+.swiper-pagination {
+  height: 100px;
+  font-size: 26px;
+}
+
 .rounded-2xl{
   border-radius: 0;
 }
