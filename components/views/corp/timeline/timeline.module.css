@@ -1,0 +1,13 @@
+.container_img img{
+    position: relative;
+    width: 550px;
+    height: 450px;
+    top: 85px;
+    left: -50px;
+}
+
+@media (max-width: 640px) {
+    .container_img img{
+        height: 250px;
+    }
+}

@@ -37,6 +37,7 @@ body {
     background-size: cover;
     height: auto;
     scroll-behavior: smooth;
+  color: white;
 }
 
 a {

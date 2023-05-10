@@ -79,7 +79,7 @@ const Navbar = () => {
               menu
             }
           >
-            <div className="flex gap-6 flex-grow">
+            <div className="flex gap-6 lg:flex-grow">
               <div className={styles.dropdown}>
                 <li>
                   <Link href={`/`} title="sdfsafsdf">
