@@ -1,0 +1,27 @@
+.form{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 180px;
+}
+
+
+
+.div_form{
+    display: flex;
+}
+
+.form h2 {
+    font-family: voyage,sans-serif ;
+    font-weight:bold;
+    font-size: 60px;
+    color: white;
+}
+
+.button{
+    background-color: #e20613;
+    
+}
+
+.form_{
+    
+}

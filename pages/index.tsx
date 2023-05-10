@@ -3,6 +3,7 @@ import Head from "next/head";
 import Layout from "../components/general/layout/layout.component";
 import HomePage from "../components/views/home/homePage.component";
 
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       </Head>
       <Layout>
         <HomePage />
+        
       </Layout>
     </div>
   );
