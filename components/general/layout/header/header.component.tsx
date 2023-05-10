@@ -16,7 +16,7 @@ const Header = () => {
           adipisci autem, ipsa deserunt quisquam vel praesentium repellendus,
           veritatis cumque minima.
         </p>
-        <button className="ml-4 text-white md:ml-48 px-11 py-2">Contactanos</button>
+        <button className="ml-4 text-white md:ml-48 px-11 py-2">Contáctanos</button>
       </div>
 
     </div>

@@ -180,34 +180,25 @@ const Navbar = () => {
 
             <div className="flex-initial w-32 items-center ">
               <div className={"flex w-auto gap-4 " + styles.socials_mob}>
-                <img
+                <a href="https://www.instagram.com/amodular.col/" target='_blank'>
+                  <img 
                   src={"./images/instagram.png"}
                   alt={"logo instagram"}
                   width={30}
                   height={30}
                   title="logo instagram"
-                />
-                <img
+                /></a>
+                
+                <a href="https://www.facebook.com/Amodular.Arquitectura.Interior/" target='_blank'>
+                  <img
                   src={"./images/facebook.png"}
                   alt={"logo facebook"}
                   width={30}
                   height={30}
                   title="logo facebook"
-                />
-                <img
-                  src={"./images/tik-tok.png"}
-                  alt={"logo tiktok"}
-                  width={30}
-                  height={30}
-                  title="logo tiktok"
-                />
-                <img
-                  src={"./images/youtube.png"}
-                  alt={"logo youtube"}
-                  width={30}
-                  height={30}
-                  title="logo youtube"
-                />
+                /></a>
+                
+               
               </div>
             </div>
           </ul>
