@@ -1,24 +1,12 @@
-import { NextPage } from "next";
-import Layout from "../../components/general/layout/layout.component";
-import Blog from "../../components/views/blog/blog.component";
+import { NextPage } from "next"
+import Blog from "../../components/views/blog/blog.component"
 
+const index: NextPage = () => {
+  return (
+    <>
+        <Blog />
+    </>
+  )
+}
 
-
-
-
-const Index: NextPage = () => {
-    return (
-        <>
-        <Layout>
-            
-           <Blog />     
-            
-        </Layout>
-      
-    
-        </>
-    );
-};
-  
-  
-  export default Index;
+export default index
