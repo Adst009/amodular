@@ -4,6 +4,8 @@ import Kitchen from "./kitchen/kitchen.component";
 import Make from "./make/make.component";
 import Results from "./results/results.component";
 import Slider from "./slider/slider";
+import Form from "./form/form.component";
+
 
 const HomePage = () => {
   return (
@@ -15,6 +17,7 @@ const HomePage = () => {
         <Kitchen />
         <Make/>
         <Results/>
+        <Form/>
         
     </div>
   );
