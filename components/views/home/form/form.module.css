@@ -5,7 +5,6 @@
 }
 
 
-
 .div_form{
     display: flex;
 }
@@ -19,9 +18,19 @@
 
 .button{
     background-color: #e20613;
-    
+    text-align: center;
+}
+.button button{
+    height: 50px;
 }
 
-.form_{
-    
+.form_content{
+    width: 40%;
+}
+
+.form_content input{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
 }

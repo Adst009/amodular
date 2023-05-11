@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import Layout from "../../components/general/layout/layout.component";
-import Blog from "../../components/views/blog/blog.component";
+import Post from "../../components/views/post/post.component";
 
 
 
@@ -11,7 +11,7 @@ const Index: NextPage = () => {
         <>
         <Layout>
             
-           <Blog />     
+           <Post/>
             
         </Layout>
       
