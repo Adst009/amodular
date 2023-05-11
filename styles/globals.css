@@ -4,27 +4,31 @@
 
 @font-face {
   font-family: 'Eina01';
-  src: url('/fonts/Eina01-Regular.ttf') format('truetype');
+  src: url('/fonts/Eina01-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Eina02';
-  src: url('/fonts/Eina02-Regular.ttf') format('truetype');
+  src: url('/fonts/Eina02-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Eina03';
-  src: url('/fonts/Eina03-Bold.ttf') format('truetype');
+  src: url('/fonts/Eina03-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Eina04';
+  src: url('/fonts/Eina04-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'IntegralCF';
-  src: url('/fonts/IntegralCF-Bold.ttf') format('truetype');
+  src: url('/fonts/IntegralCF-ExtraBold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Voyage';
-  src: url('/fonts/Voyage-Regular.ttf') format('truetype');
+  src: url('/fonts/Voyage-Bold.ttf') format('truetype');
 }
 
 html,
@@ -32,7 +36,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Eina01, Eina02, Eina03, IntegralCF, Voyage, sans-serif;
+  font-family: Eina01, Eina02, Eina03, Eina04, IntegralCF, Voyage, sans-serif;
     background-image: url("/images/general/general_background.png");
     background-size: cover;
     height: auto;
@@ -62,12 +66,13 @@ a {
   border-radius: 0;
 }
 
-h2{
-  font-family: voyage,sans-serif;
-}
+/*h2{*/
+/*  font-family: voyage, sans-serif;*/
+/*}*/
 
 p{
-  font-family: eina01, sans-serif;
+  font-size: 14px;
+  font-family: Eina04, sans-serif;
   color: white;
 }
 
@@ -76,6 +81,6 @@ p{
   font-weight: 900;
 } */
 
-h3{
-  font-family:voyage;
-}
+/*h3{*/
+/*  font-family:voyage-bold;*/
+/*}*/
