@@ -11,32 +11,32 @@ const Form = () => {
                 <h2> proyecto</h2>
             </div> 
 
-             <div>
-                <form className={styles.form_}>
-                    <div className={styles.div_form}>
-                        <div>
-                        <input type="text"  name="name" placeholder="Nombres*"/>
+
+                <form className={styles.form_content}>
+
+                        <div className="flex gap-10">
+
+                                <input type="text"  name="name" placeholder="Nombres*"/>
+
+                                <input type="text"  name="phone" placeholder="Apellidos*"/>
+
                         </div>
-                        <div >
-                        <input type="text"  name="phone" placeholder="Apellidos*"/>
+                        <div className="flex gap-10 pt-4">
+
+                                <input type="number"  name="email" placeholder="Cel/tel*"/>
+
+                                <input type="email"  name="email" placeholder="E-mail*"/>
+
                         </div>
-                    </div>
-                    <div className={styles.div_form}>
-                        <div>
-                        <input type="number"  name="email" placeholder="Cel/tel*"/>
-                        </div>
-                        <div>
-                        <input type="email"  name="email" placeholder="E-mail*"/>
-                        </div>
-                    </div>
-                        <div className={styles.button} >
-                        <button className="text-white px-2 py-2 ml-2 w-10/12">
+
+                        <div className={styles.button+ " mt-10"} >
+                        <button>
             Contáctanos
           </button>
                         </div>
                 </form>
             </div>
-        </div>
+
 
 );
 };
