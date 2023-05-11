@@ -30,6 +30,7 @@
 html,
 
 body {
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
   font-family: Eina01, Eina02, Eina03, IntegralCF, Voyage, sans-serif;
@@ -50,12 +51,12 @@ a {
 }
 
 .swiper-wrapper {
-  margin-top: 77px !important;
+  margin-top: 35px !important;
 }
 
 .swiper-pagination {
-  height: 100px;
-  font-size: 26px;
+  font-size: 20px;
+  /* height: 100px; */
 }
 
 .rounded-2xl{
@@ -71,10 +72,6 @@ p{
   color: white;
 }
 
-/* h1{
-  font-family: IntegralCF;
-  font-weight: 900;
-} */
 
 h3{
   font-family:voyage;
