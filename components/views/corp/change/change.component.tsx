@@ -7,13 +7,13 @@ const Change = () => {
       <div className={styles.container}>
         <div
           className={
-            "flex flex-col content-center items-center pt-48 pb-20 w-full " +
+            "flex flex-col content-center items-center pt-10 md:pt-48 pb-20 w-full " +
             styles.container_text
           }
         >
           <h2
             className={
-              "text-8xl font-black text-white leading-3 pb-10 " +
+              "text-4xl md:text-8xl font-black text-white leading-3 pb-0 md:pb-10 " +
               styles.title_main
             }
           >
@@ -21,7 +21,7 @@ const Change = () => {
           </h2>
           <h3
             className={
-              "text-7xl pl-4 font-medium text-white " + styles.title_main
+              "text-4xl md:text-7xl pl-4 font-medium text-white " + styles.title_main
             }
           >
             tu entorno de trabajo

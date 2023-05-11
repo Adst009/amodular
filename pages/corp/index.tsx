@@ -1,10 +1,11 @@
+import { NextPage } from "next";
 import Layout from "../../components/general/layout/layout.component";
-import Change from "../../components/views/corp/change/change.component";
+import CorpPage from "../../components/views/corp/corpPage.component";
 
-const index = () => {
+const index: NextPage = () => {
   return (
     <Layout>
-      <Change />
+      <CorpPage />
     </Layout>
   );
 };
