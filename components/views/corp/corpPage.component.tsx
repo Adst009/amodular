@@ -3,10 +3,12 @@ import Change from "./change/change.component";
 import Process from "./process/process.component";
 import Timeline from "./timeline/timeline.component";
 import Timeline2 from "./timeline/timeline2.component";
+import Header from "../home/header/header.component";
 
 const CorpPage = () => {
   return (
     <>
+      <Header />
       <Change />
         <Process />
         <Timeline

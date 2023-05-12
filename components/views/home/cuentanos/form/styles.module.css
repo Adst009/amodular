@@ -1,0 +1,31 @@
+.item_input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.form{
+    width: 100%;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form form button{
+    width: 100%;
+    background-color: #e20613;
+    color: #ffffff;
+    border: none;
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: 'Integral-Bold';
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.form form button:hover{
+    background-color: #ffffff;
+    color: #e20613;
+}

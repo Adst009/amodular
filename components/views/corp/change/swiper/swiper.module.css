@@ -13,6 +13,26 @@
     color: white;
 }
 
+.Swiper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 12.85%;
+    background-color: #ffffff;
+    width: 1px;
+    height: 100%;
+}
+
+.Swiper:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 13.20%;
+    background-color: #ffffff;
+    width: 1px;
+    height: 100%;
+}
+
 .SwiperSlide button{
     background-color: red;
     padding: 4px 10px;
@@ -58,4 +78,26 @@
 .SwiperSlide:hover button {
     display: block;
     transition: 0.7s;
+}
+
+@media (max-width: 640px) {
+    .Swiper:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 7.59%;
+        background-color: #ffffff;
+        width: 1px;
+        height: 100%;
+    }
+    
+    .Swiper:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 7.50%;
+        background-color: #ffffff;
+        width: 1px;
+        height: 100%;
+    }
 }
