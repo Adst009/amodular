@@ -101,7 +101,7 @@ const SwiperCorp = () => {
 
                 <div
                   className={
-                    "bg-zinc-700 px-4 border-b-2 border-l-2 border-r-2 border-red-700 mt-[-44px] p-3 2xl:w-[27.5vw] " +
+                    "bg-zinc-700 px-4 border-b-2 border-l-2 border-r-2 border-red-700 mt-[-44px] p-3  " +
                     styles.container_text
                   }
                 >

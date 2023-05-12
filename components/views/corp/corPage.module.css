@@ -1,23 +1,22 @@
-.container_blog {
-    position: relative;
-}
-
-.container_blog:before {
+.container_process:before {
     content: '';
     position: absolute;
     top: 0;
-    left: 10.8%;
+    left: 7.50%;
     background-color: #ffffff;
     width: 1px;
-    height: 100%;
+    height: 98%;
 }
 
-.container_blog:after {
+.container_process:after {
     content: '';
     position: absolute;
     top: 0;
-    right: 11.5%;
+    right: 4.50%;
     background-color: #ffffff;
     width: 1px;
-    height: 100%;
+    height: 98%;
 }
+
+
+

@@ -1,18 +1,1 @@
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-
-.par{
-    align-items: center;
-    width: 80%;
-    margin-bottom: -100px;
-}
-
-.image{
-    width: 60%;
-    height: 350px;
-
-}

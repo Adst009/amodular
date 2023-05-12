@@ -1,0 +1,9 @@
+.pagination{
+    position: absolute;
+   color: #e20613;
+    z-index: 2;
+    left: 40%;
+    bottom: -25px;
+    font-size: 60px;
+    cursor: pointer;
+}

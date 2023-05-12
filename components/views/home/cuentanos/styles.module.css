@@ -1,0 +1,54 @@
+.section {
+    position: relative;
+    background-color: #323032;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section:before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 6.7%;
+    width: 24px;
+    height:24px;
+    background-image: url("/images/apoyo_grafico/estrella.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 4;
+}
+
+.section:after {
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: 6.7%;
+    width: 24px;
+    height:24px;
+    background-image: url("/images/apoyo_grafico/linea-recta-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 4;
+}
+
+.general{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    width: 85%;
+}
+
+
+
+.content h2 {
+    font-size: 79px;
+    color: #ffffff;
+    line-height: 80px;
+}
+
+.content  h3 {
+    position: relative;
+    font-size: 108px;
+    line-height: 80px;
+}

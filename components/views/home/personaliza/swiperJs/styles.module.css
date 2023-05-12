@@ -1,0 +1,30 @@
+/* Custom styles for Swiper navigation buttons */
+.swiperNext {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    z-index: 999;
+}
+
+.swiperNext i {
+    font-size: 80px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.apoyoGrafico{
+    position: relative;
+}
+
+.apoyoGrafico:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+
+}

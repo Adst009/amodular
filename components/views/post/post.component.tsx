@@ -1,18 +1,17 @@
-import React from 'react'
-import Trend from './trend/trend.component'
+import React from "react";
+import Trend from "./trend/trend.component";
 import Design from "./design/desgin.component";
-import styles from "./post.module.css"
+import styles from "./post.module.css";
 
 const Post = () => {
   return (
-    <div>
-        <h1 className={'text-center ' + styles.main_title}>TENDENCIAS 2023 EN <br />  diseño de interiores</h1>
-    <Trend/>
-    <Design/>
+    <div className={styles.container_post}>
+      <div className={styles.container_component}>
+        <Trend />
+        <Design />
+      </div>
     </div>
-    
-    
-  )
-}
+  );
+};
 
-export default Post
+export default Post;

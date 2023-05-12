@@ -7,7 +7,7 @@ const Change = () => {
       <div className={styles.container}>
         <div
           className={
-            "flex flex-col content-center items-center pt-10 md:pt-48 pb-20 w-full " +
+            "flex flex-col relative content-center items-center pt-10 md:pt-48 pb-20 w-full " +
             styles.container_text
           }
         >

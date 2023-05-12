@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Eina01';
-  src: url('/fonts/Eina01-SemiBold.ttf') format('truetype');
+  src: url('/fonts/Eina01-Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -23,12 +23,12 @@
 
 @font-face {
   font-family: 'IntegralCF';
-  src: url('/fonts/IntegralCF-ExtraBold.ttf') format('truetype');
+  src: url('/fonts/IntegralCF-ExtraBold.otf') format('truetype');
 }
 
 @font-face {
   font-family: 'Voyage';
-  src: url('/fonts/Voyage-Bold.ttf') format('truetype');
+  src: url('/fonts/Voyage-Bold.otf') format('truetype');
 }
 
 html,
@@ -69,11 +69,18 @@ a {
 
 p{
   font-size: 14px;
-  font-family: Eina04, sans-serif;
+  font-family: Voyage, sans-serif;
   color: white;
 }
 
 h3{
-  font-family:voyage;
+  font-family:Voyage;
 }
 
+h1,h2 {
+  font-family: IntegralCF, sans-serif;
+}
+
+h4{
+  font-family: IntegralCF, sans-serif;
+}

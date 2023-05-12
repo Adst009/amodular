@@ -50,7 +50,7 @@ const lisTrends = [
 
 const SwiperCorp = () => {
   return (
-    <div className="w-full md:w-[115vw] md:ml-[-60px] lg:ml-[-100px]">
+    <div className="w-full sm:w-2 md:w-[115vw] md:ml-[-60px] lg:ml-[-100px] relative">
       <Swiper
         slidesPerView={1}
         spaceBetween={15}
