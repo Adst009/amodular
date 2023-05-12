@@ -16,13 +16,13 @@ export default function Resultados() {
                         </div>
                         <div className={styles.cardImg}>
                             <img src="/images/personalize/res1.png" alt=""/>
-                            <img src="/images/personalize/res1.png" alt=""/>
+                            <img src="/images/personalize/res2.png" alt=""/>
                         </div>
                     </div>
 
                     <div className={styles.cardGeneral_2}>
                         <div className={styles.singleImg}>
-                            <img src="/images/personalize/res1.png" alt=""/>
+                            <img src="/images/personalize/res3.png" alt=""/>
                         </div>
                         <div className={styles.content}>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod

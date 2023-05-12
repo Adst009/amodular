@@ -34,17 +34,19 @@
     gap: 80px;
 }
 
-
+.content_1{
+    padding-top: 90px;
+}
 
 .content_1 h2 {
     font-size: 108px;
     color: #fff;
-    line-height: 110px;
+    line-height: 70px;
 
 }
 
 .content_1 h2 span {
-    font-size: 91px;
+    font-size: 88px;
     font-family: 'Voyage-Bold';
 }
 
@@ -53,18 +55,24 @@
     max-width: 500px;
     color: #ffffff;
     font-family: Calibri;
+    padding-top: 40px;
 }
 
 .content_2{
     border: solid 2px #e20613;
-    padding: 60px;
+    padding: 40px;
+    line-height: 50px;
+
+
 }
 
 .content_2 h2 {
-    font-size: 60px;
+    font-size: 63px;
     color: #fff;
     max-width: 374px;
     margin-bottom: 40px;
+
+
 }
 
 .content_2 a{

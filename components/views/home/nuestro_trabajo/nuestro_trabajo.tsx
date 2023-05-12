@@ -11,7 +11,7 @@ export default function NuestroTrabajo() {
                         <SwiperJs>
                             <SwiperSlide>
                                 <div className={styles.card}>
-                                    <img src="/images/personalize/res1.png" alt=""/>
+                                    <img src="/images/work1.png" alt=""/>
                                     <div className={styles.callToAction}>
                                         <i className='bx bx-plus'></i>
                                     </div>
@@ -20,7 +20,7 @@ export default function NuestroTrabajo() {
 
                             <SwiperSlide>
                                 <div className={styles.card}>
-                                    <img src="/images/personalize/res1.png" alt=""/>
+                                    <img src="/images/work2.png" alt=""/>
                                     <div className={styles.callToAction}>
                                         <i className='bx bx-plus'></i>
                                     </div>
@@ -28,7 +28,7 @@ export default function NuestroTrabajo() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className={styles.card}>
-                                    <img src="/images/personalize/res1.png" alt=""/>
+                                    <img src="/images/work1.png" alt=""/>
                                     <div className={styles.callToAction}>
                                         <i className='bx bx-plus'></i>
                                     </div>
@@ -36,7 +36,7 @@ export default function NuestroTrabajo() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className={styles.card}>
-                                    <img src="/images/personalize/res1.png" alt=""/>
+                                    <img src="/images/work2.png" alt=""/>
                                     <div className={styles.callToAction}>
                                         <i className='bx bx-plus'></i>
                                     </div>
@@ -44,7 +44,7 @@ export default function NuestroTrabajo() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className={styles.card}>
-                                    <img src="/images/personalize/res1.png" alt=""/>
+                                    <img src="/images/work1.png" alt=""/>
                                     <div className={styles.callToAction}>
                                         <i className='bx bx-plus'></i>
                                     </div>
@@ -52,7 +52,7 @@ export default function NuestroTrabajo() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className={styles.card}>
-                                    <img src="/images/personalize/res1.png" alt=""/>
+                                    <img src="/images/work2.png" alt=""/>
                                     <div className={styles.callToAction}>
                                         <i className='bx bx-plus'></i>
                                     </div>

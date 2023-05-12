@@ -12,7 +12,7 @@
     left: 7.50%;
     background-color: #ffffff;
     width: 1px;
-    height: 97%;
+    height: 98%;
 }
 
 .container_component:after {
@@ -22,13 +22,13 @@
     right: 4.50%;
     background-color: #ffffff;
     width: 1px;
-    height: 97%;
+    height: 98%;
 }
 
 .container_post:after {
     content: '';
     position: absolute;
-    top: 92.5%;
+    top: 93.5%;
     right: 11.8%;
     background-color: #ffffff;
     width: 1px;
@@ -38,7 +38,7 @@
 .container_post:before {
     content: '';
     position: absolute;
-    top: 93.5%;
+    top: 94.5%;
     left: 13.2%;
     background-color: #ffffff;
     width: 1px;
