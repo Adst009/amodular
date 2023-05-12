@@ -1,15 +1,17 @@
 import React from "react";
-import Change from "./change/change.component";
 import Process from "./process/process.component";
 import Timeline from "./timeline/timeline.component";
 import Timeline2 from "./timeline/timeline2.component";
 import Header from "../home/header/header.component";
+import styles from "./corPage.module.css"
+import Change from "./change/change.component";
 
 const CorpPage = () => {
   return (
     <>
       <Header />
       <Change />
+      <div className={ "relative " + styles.container_process}>
         <Process />
         <Timeline
           title="TOMA DE CONTACTO"
@@ -39,8 +41,13 @@ const CorpPage = () => {
               expedita."
           number="04"
         />
-      <div className="flex items-center justify-center">
-        <img className="w-8/12 md:w-4/12 " src="./images/corp/remodel.png" alt="" />
+      <div className={"flex items-center justify-center "}>
+        <img
+          className="w-8/12 md:w-4/12 "
+          src="./images/corp/remodel.png"
+          alt=""
+        />
+      </div>
       </div>
     </>
   );

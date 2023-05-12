@@ -1,12 +1,14 @@
+import { useRouter } from "next/router";
 import styles from "./footer.module.css";
 
 export default function Footer() {
+  const route = useRouter();
   return (
     <>
       <div
         className={
-          "flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row h-96 justify-center gap-10 pt-20 " +
-          styles.content_footer
+          styles.content_footer + " flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row h-96 justify-center gap-10 pt-20 " +
+          (route.asPath === "/" ? styles.content_line : " ")
         }
       >
         <div className={"w-80 md:w-60 md:h-64 lg:w-60 " + styles.margin_footer}>
@@ -88,16 +90,6 @@ export default function Footer() {
                   title="logo facebook"
                 />
               </a>
-              {/* <img src={"./images/tik-tok.png"}
-                                 alt={"logo tiktok"}
-                                 width={50}
-                                 height={50}
-                                 title="logo tiktok"/>
-                            <img src={"./images/youtube.png"}
-                                 alt={"logo youtube"}
-                                 width={50}
-                                 height={50}
-                                 title="logo youtube"/> */}
             </div>
           </div>
         </div>

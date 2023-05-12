@@ -1,5 +1,26 @@
-.content_footer0{
+.content_footer{
     display: flex;
+    position: relative;
+}
+
+.content_line:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 7.50%;
+    background-color: #ffffff;
+    width: 1px;
+    height: 100%;
+}
+
+.content_line:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 4.50%;
+    background-color: #ffffff;
+    width: 1px;
+    height: 100%;
 }
 
 .content_footer0 h2{

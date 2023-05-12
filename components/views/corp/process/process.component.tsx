@@ -2,7 +2,7 @@ import styles from "./process.module.css";
 
 function Process() {
   return (
-    <div className="flex-col sm:flex-col mt-36 md:mb-[-300px] md:flex-row lg:flex-row xl:flex items-center content-center">
+    <div className="flex-col sm:flex-col pt-36 md:mb-[-300px] md:flex-row lg:flex-row xl:flex items-center content-center">
       <div className={"pl-4 lg:pl-32 md:w-8/12"}>
         <h2 className={"text-5xl md:text-8xl font-black text-white " + styles.title_main}>
           NUESTRO
@@ -17,7 +17,6 @@ function Process() {
           veritatis cumque minima.
         </p>
       </div>
-      <div className={"flex-col md:w-4/12 " + styles.container_text}></div>
     </div>
   );
 }

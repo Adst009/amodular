@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Eina01';
-  src: url('/fonts/Eina01-SemiBold.ttf') format('truetype');
+  src: url('/fonts/Eina01-Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -69,11 +69,18 @@ a {
 
 p{
   font-size: 14px;
-  font-family: Eina04, sans-serif;
+  font-family: Voyage, sans-serif;
   color: white;
 }
 
-h3{
+h3, h4{
   font-family:voyage;
 }
 
+h1,h2 {
+  font-family: Eina01, sans-serif;
+}
+
+button {
+  font-family: Eina01, sans-serif;
+}
