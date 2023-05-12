@@ -55,7 +55,7 @@ const Design = () => {
               <h2 className={styles.main_title}>SUSCRíBETE Y <br /> <span className="">conoce las ultimas novedades</span></h2>
             </div>
             <div className="bg-[#E20613] w-[850px] h-[140px] gap-8 flex items-center justify-center">
-                <input className="w-[380px] h-[60px] " type="email" placeholder="E-mail"/>
+                <input className="w-[380px] h-[60px]" type="email" placeholder="E-mail"/>
                 <button className={"bg-[#262526] w-[240px] h-[60px]"}>SUSCRIBETE</button>
 
             </div>

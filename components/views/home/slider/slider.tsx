@@ -9,7 +9,7 @@ import styles from "./slider.module.css"
 function Slider() {
     const slides =[
         {
-            url:'/images/Personalize/res1.png'
+            url:'/images/pers1.png'
         },
         {
             url:'/images/Personalize/res2.png'
