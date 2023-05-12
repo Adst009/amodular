@@ -6,7 +6,8 @@ export default function Personaliza() {
         <>
             <section className={styles.section}>
                 <div className={styles.title}>
-                    <h2>Personalizamos <br/> <span>tu cocina</span></h2>
+                    <h2>Personalizamos <br/> </h2>
+                    <h3>tu cocina</h3>
                     <img src="/images/apoyo_grafico/title.png" alt=""/>
                 </div>
                 <div className={styles.general}>

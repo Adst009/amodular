@@ -60,7 +60,17 @@
 }
 
 .title h2 span {
-    font-family: 'Voyage-Bold';
+    font-size: 120px;
+}
+
+.title h3 {
+    color: #ffffff;
+    font-size: 95px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.title h3 span {
     font-size: 120px;
 }
 

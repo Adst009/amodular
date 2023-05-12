@@ -12,7 +12,8 @@ export default function Resultados() {
                             <span>Mira los</span>
                         </div>
                         <div className={styles.content}>
-                            <h2>Mira los <br/> <span>resultados</span></h2>
+                            <h2>Mira los </h2>
+                            <h3>resultados</h3>
                         </div>
                         <div className={styles.cardImg}>
                             <img src="/images/personalize/res1.png" alt=""/>

@@ -13,7 +13,7 @@ const Blog = () => {
         }
       >
         <h1
-          className={"text-7xl md:text-9xl font-black text-white font-[Eina03]"}
+          className={"text-7xl md:text-9xl font-black text-white "}
         >
           BLOGS
         </h1>

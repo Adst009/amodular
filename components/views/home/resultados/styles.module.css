@@ -119,9 +119,9 @@
     padding-bottom: 20px;
 }
 
-.cardGeneral_1 .content h2 span {
-    font-size: 135px;
-    font-family: 'Voyage-Bold';
+.cardGeneral_1 h3 {
+    font-size: 120px;
+    line-height: 80px;
 }
 
 

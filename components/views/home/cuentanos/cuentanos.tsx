@@ -7,8 +7,8 @@ export default function Cuentanos() {
             <section className={styles.section}>
                 <div className={styles.general}>
                     <div className={styles.content}>
-                        <h2>Cuéntanos <br/>
-                            sobre tu <br/> <span>proyecto</span></h2>
+                        <h2>CUENTANOS SOBRE TU</h2>
+                        <h3>proyecto</h3>
                     </div>
                     <Form/>
                 </div>

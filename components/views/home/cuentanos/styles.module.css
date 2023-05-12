@@ -44,11 +44,11 @@
 .content h2 {
     font-size: 79px;
     color: #ffffff;
+    line-height: 80px;
 }
 
-.content h2 span {
+.content  h3 {
     position: relative;
     font-size: 108px;
-    font-family: 'Voyage-Bold';
-    top: -30px;
+    line-height: 80px;
 }

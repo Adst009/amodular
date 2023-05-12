@@ -23,12 +23,12 @@
 
 @font-face {
   font-family: 'IntegralCF';
-  src: url('/fonts/IntegralCF-ExtraBold.ttf') format('truetype');
+  src: url('/fonts/IntegralCF-ExtraBold.otf') format('truetype');
 }
 
 @font-face {
   font-family: 'Voyage';
-  src: url('/fonts/Voyage-Bold.ttf') format('truetype');
+  src: url('/fonts/Voyage-Bold.otf') format('truetype');
 }
 
 html,
@@ -73,14 +73,14 @@ p{
   color: white;
 }
 
-h3, h4{
-  font-family:voyage;
+h3{
+  font-family:Voyage;
 }
 
 h1,h2 {
-  font-family: Eina01, sans-serif;
+  font-family: IntegralCF, sans-serif;
 }
 
-button {
-  font-family: Eina01, sans-serif;
+h4{
+  font-family: IntegralCF, sans-serif;
 }
