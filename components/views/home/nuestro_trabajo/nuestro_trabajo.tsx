@@ -1,12 +1,12 @@
 import styles from './styles.module.css'; 
 import {SwiperSlide} from "swiper/react";
-import SwiperJs from './swiperJs/swiperJs';
+import SwiperJs from './swiperJs/swiperJs'; 
 
 export default function NuestroTrabajo() {
     return (
         <>
             <section className={styles.section}>
-                <div className={styles.general}>
+                <div className={"relative w-10/12 flex-col lg:flex lg:flex-row items-center justify-center gap-14 " + styles.general}>
                     <div className={styles.carrucel}>
                         <SwiperJs>
                             <SwiperSlide>

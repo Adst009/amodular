@@ -95,3 +95,9 @@
     height: 24px;
     z-index: 2;
 }
+
+@media (max-width: 768px){
+    .general {
+        width: 110%;
+    }
+}

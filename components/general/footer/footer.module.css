@@ -48,3 +48,28 @@
     align-items: center;
     gap: 20px;
 }
+
+
+@media (max-width: 768px){
+    .content_line:before {
+        display: none;
+    }
+    
+    .content_line:after {
+        display: none;
+    }
+    
+}
+@media (max-width: 960px){
+    .content_line:before {
+        display: none;
+    }
+    
+    .content_line:after {
+        display: none;
+    }
+    .content_footer {
+        width: 96%;
+        margin-left: 20px;
+    }
+}
