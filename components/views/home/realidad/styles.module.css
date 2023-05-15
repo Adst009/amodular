@@ -82,5 +82,13 @@
     height: 40px;
     background-color: #e20613;
     color: #ffffff;
-    font-family: 'Integral-Bold';
+    font-family: 'IntegralCF';
+    transition: all 1s ease-in-out;
+}
+
+.content_2 a:hover {
+    background-color: #ffffff;
+    color: #e20613;
+    border: 1px solid #e20613;
+    cursor: pointer;
 }

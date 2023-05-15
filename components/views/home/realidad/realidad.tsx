@@ -8,14 +8,12 @@ export default function Realidad() {
                     <div className={styles.content_1}>
                         <h2>HACEMOS </h2>
                         <h3>tu idea realidad</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                            nostrud exerci tation |ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                            consequat.</p>
+                        <p>Contamos con un equipo experto y especializado en plasmar tus ideas.
+                            Deja de soñar y ¡hazlo realidad!, juntos podemos crear la cocina que siempre has querido tener.</p>
                     </div>
 
                     <div className={styles.content_2}>
-                        <h2 className="pr-20 leading-[60px]">TU COCINA SERÁ COMO IMAGINAS</h2>
+                        <h2 className="pr-20 leading-[60px]">TU COCINA SERÁ TAL CUAL LA IMAGINAS</h2>
 
                     <a href="#">CONTÁCTANOS</a>
                     </div>

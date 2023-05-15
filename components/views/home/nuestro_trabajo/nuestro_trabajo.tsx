@@ -62,11 +62,12 @@ export default function NuestroTrabajo() {
                     </div>
                     <div className={styles.content}>
                         <h2><b>Nuestro</b> <br/> <span>trabajo</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-                            nostrud exerci tation |ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                            consequat.</p>
-                        <a href="#">Contactanos</a>
+                        <p>Somos una empresa dedicada al diseño y construcción de espacios,
+                            encaminados a lograr un lugar cómodo de acuerdo a tus necesidades.
+                            Nuestro principal objetivo es recrear cada diseños de manera autónoma,
+                            teniendo en cuenta la inversión y así,  poder ejecutar los resultados de cada proyecto de la mejor manera.
+                        </p>
+                        <a href="#">Contáctanos</a>
                        <div className={styles.mundo}>
                            <img src="/images/apoyo_grafico/mundo.png" alt=""/>
                        </div>
