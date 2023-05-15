@@ -6,7 +6,8 @@
 }
 
 .title_main {
-    line-height: 2.5rem;
+    line-height: 6.5rem;
+
 }
 
 .container_text button{
@@ -14,8 +15,13 @@
 }
 
 
-@media (min-width: 768px){
+@media (max-width: 768px) {
     .title_main {
-        line-height: 6.5rem;
+        line-height: 2.5rem;
+    }
+    .container{
+
+        height: auto;
+        object-fit: cover;
     }
 }
