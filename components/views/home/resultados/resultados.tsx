@@ -29,7 +29,7 @@ export default function Resultados() {
                             <p>¿Estás listo para ver cómo tu cocina pasa de ser una habitación ordinaria a un espacio
                                 excepcionalmente hermoso y funcional?
                             </p>
-                            <a href="#">Contactanos</a>
+                            <a href="#">CONTÁCTANOS</a>
                         </div>
                     </div>
                 </div>

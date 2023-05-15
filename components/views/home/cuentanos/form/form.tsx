@@ -22,7 +22,7 @@ export default function Form() {
                                onChange={(event) => setEmail(event.target.value)} />
 
                     </div>
-                    <button>Contactanos</button>
+                    <button>CONTÁCTANOS</button>
                 </form>
             </div>
         </>
