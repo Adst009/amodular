@@ -1,6 +1,7 @@
 .container{
     background-image: url("/images/Personalize/res4.png");
     background-repeat: no-repeat;
+
     
 }
 
@@ -27,9 +28,10 @@
     content: '';
     position: absolute;
     top: 0;
-    right: 4.5%;
+    right: 7.5%;
     background-color: #ffffff;
     width: 1px;
     height: 100%;
     z-index: 1;
 }
+

@@ -1,25 +1,38 @@
 
-.div_li img{
-    width: 600px;
-    height: 250px;
-
+.div_subtitles h3 {
+    font-family: IntegralCF;
+}
+.div_subtitles p {
+    font-family: Eina01;
 }
 
-.div_im {
-    margin-bottom: -16px;
-}
 
-.textoApoyo span {
-    -webkit-text-stroke-width: 0.4px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-    font-size: 77px;
-    font-family: 'Integral-Bold';
-    color: transparent;
-    margin: -10px;
-}
+
+
 .cardGeneral_1 {
 
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+.textoApoyo {
+    position: absolute;
+
+    bottom: 220px ;
+    left: 422px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    z-index: 1;
+}
+
+.textoApoyo span {
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-family: 'IntegralCF';
+    color: transparent;
+    margin: -15px;
+    padding-left: 8px;
 }

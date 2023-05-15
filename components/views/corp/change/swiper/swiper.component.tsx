@@ -14,35 +14,35 @@ const lisTrends = [
     imageUrl: "/images/corp/slider/image3.png",
     title: "PROYECTO",
     title2: "OFICINAS 001",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptates! Nesciunt repellendus",
+    description: "Nuestro equipo de expertos en diseño y construcción está listo para ayudarte a crear un entorno de trabajo que no solo sea hermoso, sino que también sea funcional y te haga sentir inspirado.",
     button: "CONTACTANOS"
   },
   {
     imageUrl: "/images/corp/slider/image2.png",
     title: "PROYECTO",
-    title2: "OFICINAS 001",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptates! Nesciunt repellendus",
+    title2: "OFICINAS 002",
+    description: "Nuestro equipo de expertos en diseño y construcción está listo para ayudarte a crear un entorno de trabajo que no solo sea hermoso, sino que también sea funcional y te haga sentir inspirado.",
     button: "CONTACTANOS"
   },
   {
     imageUrl: "/images/corp/slider/image5.png",
     title: "PROYECTO",
-    title2: "OFICINAS 001",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptates! Nesciunt repellendus",
+    title2: "OFICINAS 003",
+    description: "Nuestro equipo de expertos en diseño y construcción está listo para ayudarte a crear un entorno de trabajo que no solo sea hermoso, sino que también sea funcional y te haga sentir inspirado.",
     button: "CONTACTANOS"
   },
   {
     imageUrl: "/images/corp/slider/image4.png",
     title: "PROYECTO",
-    title2: "OFICINAS 001",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptates! Nesciunt repellendus",
+    title2: "OFICINAS 004",
+    description: "Nuestro equipo de expertos en diseño y construcción está listo para ayudarte a crear un entorno de trabajo que no solo sea hermoso, sino que también sea funcional y te haga sentir inspirado.",
     button: "CONTACTANOS"
   },
   {
     imageUrl: "/images/corp/slider/image4.png",
     title: "PROYECTO",
-    title2: "OFICINAS 001",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptates! Nesciunt repellendus",
+    title2: "OFICINAS 005",
+    description: "Nuestro equipo de expertos en diseño y construcción está listo para ayudarte a crear un entorno de trabajo que no solo sea hermoso, sino que también sea funcional y te haga sentir inspirado.",
     button: "CONTACTANOS"
   }
 ]

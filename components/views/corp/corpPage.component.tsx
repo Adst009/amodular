@@ -11,34 +11,29 @@ const CorpPage = () => {
     <>
       <Header />
       <Change />
-      <div className={ "relative " + styles.container_process}>
+        <div className={styles.container_post}>
+      <div className={ "relative " + styles.container_process }>
         <Process />
         <Timeline
           title="TOMA DE CONTACTO"
-          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-          iusto laborum illo voluptatum rerum animi incidunt distinctio aut
-          expedita."
+          description="Inicialmente, desde el canal que nos contactes,
+           solicitaremos tus datos personales para tener una comunicación más directa a través de nuestras asesoras."
           number="01"
         />
         <Timeline2
           title="DEFINIR PROYECTO"
-          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-                      iusto laborum illo voluptatum rerum animi incidunt distinctio aut
-                      expedita."
+          description="En este segundo paso escucharemos tus necesidades y requerimientos para el proyecto que deseas desarrollar."
           number="02"
         />
         <Timeline
           title="EJECUCIÓN DE PROYECTO"
-          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-                iusto laborum illo voluptatum rerum animi incidunt distinctio aut
-                expedita."
+          description="Nuestro equipo de expertos pondrá en marcha el desarrollo del proyecto para garantizar un resultado óptimo."
           number="03"
         />
         <Timeline2
           title="ENTREGA DE PROYECTO"
-          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-              iusto laborum illo voluptatum rerum animi incidunt distinctio aut
-              expedita."
+          description="El momento más esperado, entregar un proyecto que cumpla con tus expectativas y necesidades.
+           Lo más importante para nosotros es lograr un resultado que sea tal cual el cliente lo imagina. "
           number="04"
         />
       <div className={"flex items-center justify-center "}>
@@ -49,6 +44,7 @@ const CorpPage = () => {
         />
       </div>
       </div>
+        </div>
     </>
   );
 };
