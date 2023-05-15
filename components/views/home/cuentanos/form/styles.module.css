@@ -20,7 +20,7 @@
     border: none;
     padding: 20px 0;
     font-size: 20px;
-    font-family: 'Integral-Bold';
+    font-family: 'IntegralCF';
     cursor: pointer;
     transition: all 1s ease-in-out;
 }
@@ -28,4 +28,12 @@
 .form form button:hover{
     background-color: #ffffff;
     color: #e20613;
+}
+
+@media (max-width: 768px){
+    .item_input{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }

@@ -7,17 +7,20 @@ export default function Footer() {
     <>
       <div
         className={
-          styles.content_footer + " flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row h-96 justify-center gap-10 pt-20 " +
+          styles.content_footer + " mb-36 flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row h-96 justify-center gap-10 pt-20 " +
           (route.asPath === "/" ? styles.content_line : " ")
         }
       >
-        <div className={"w-80 md:w-60 md:h-64 lg:w-60 " + styles.margin_footer}>
+        <div className={"w-80 md:w-60 md:h-64 lg:w-64 " + styles.margin_footer}>
           <img src="/images/logo.png" alt="Amodular" title="amodular" />
 
           <h4>Sobre nosotros</h4>
           <p>
-            Lorem ipsum dolor sit amet, conse tetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut.
+            AMODULAR con trayectoria de 25 años ha logrado posicionarse como una de las principales empresas transformadoras
+            y desarrolladoras de mobiliario y ambientes personalizados para empresas, hogar, educativo
+            y hotelería con participación en más de cien proyectos a nivel nacional.
+
+
           </p>
         </div>
         <div className="w-80 md:w-60 lg:w-60 ">
@@ -33,7 +36,9 @@ export default function Footer() {
                 height={50}
                 title="logo ubicacion"
               />
-              <p>Calle 29a #22-44 Cartagena,Bolivar,Colombia</p>
+              <p>Calle 29a #22- 46, Esquina
+                Cartagena, Bolívar. Colombia.
+              </p>
             </div>
             <div className={styles.items}>
               <img
@@ -56,7 +61,8 @@ export default function Footer() {
                 title="logo horario"
               />
               <div>
-                <p>Horario de atención</p>
+                <p>Horario de atención <br/>
+                  09:00 am 07:00 pm</p>
               </div>
             </div>
           </div>

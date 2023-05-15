@@ -12,11 +12,43 @@
     content: '';
     position: absolute;
     top: 0;
-    right: 4.50%;
+    right: 7.50%;
     background-color: #ffffff;
     width: 1px;
     height: 98%;
 }
 
+.container_post:after {
+    content: '';
+    position: absolute;
+    top: 91%;
+    right: 19.7%;
+    background-color: #ffffff;
+    width: 1px;
+    height: 14%;
+    transform: rotate(90deg);
+}
+.container_post:before {
+    content: '';
+    position: absolute;
+    top: 91%;
+    left: 19.7%;
+    background-color: #ffffff;
+    width: 1px;
+    height: 14%;
+    transform: rotate(90deg);
+}
 
+.container_post {
+    position: relative;
+}
+
+@media (max-width: 640px) {
+    .container_post:after {
+       display: none;
+    }
+    .container_post:before {
+        display: none;
+    }
+}
 

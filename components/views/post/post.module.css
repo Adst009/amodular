@@ -19,7 +19,7 @@
     content: '';
     position: absolute;
     top: 0;
-    right: 4.50%;
+    right: 7.50%;
     background-color: #ffffff;
     width: 1px;
     height: 98%;
@@ -28,21 +28,21 @@
 .container_post:after {
     content: '';
     position: absolute;
-    top: 93.5%;
-    right: 11.8%;
+    top: 94%;
+    right: 13.2%;
     background-color: #ffffff;
     width: 1px;
-    height: 8.9%;
+    height: 8%;
     transform: rotate(90deg);
 }
 .container_post:before {
     content: '';
     position: absolute;
-    top: 94.5%;
+    top: 94%;
     left: 13.2%;
     background-color: #ffffff;
     width: 1px;
-    height: 7%;
+    height: 8%;
     transform: rotate(90deg);
 }
 

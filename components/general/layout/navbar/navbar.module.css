@@ -54,7 +54,7 @@
     max-height: 310px;
     padding: 0 20px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 1000;
 }
 
 .dropdown_content a {
@@ -102,7 +102,7 @@
         font-size: 17px;
         font-weight: bold;
         cursor: pointer;
-        z-index: 1;
+        z-index: 1001;
         transition: 0.5s;
     }
 
@@ -121,14 +121,14 @@
     .menu ul li {
         opacity: 0;
     }
-    .list_menu ul{
 
+    /* .list_menu ul{
         padding-top: 50px;
         color: #FFFFFF;
-    }
+    } */
 
     .menuActive {
-        background-color: #009DFF;
+        background-color: darkgrey;
         position: fixed;
         right: 0;
         min-height: 100vh;
@@ -136,6 +136,7 @@
         width: 50%;
         top: 0px;
         transition: 0.5s;
+        z-index: 1000;
     }
 
     .menuActive ul li a {

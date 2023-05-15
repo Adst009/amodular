@@ -44,7 +44,7 @@
 .title {
     width: 100%;
     background-color: #262526;
-    padding: 60px 40px 200px 40px;
+    padding: 60px 10px 200px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,21 +54,9 @@
 
 .title h2 {
     color: #ffffff;
-    font-size: 95px;
-    line-height: 100px;
     text-align: center;
 }
 
-.title h2 span {
-    font-size: 120px;
-}
-
-.title h3 {
-    color: #ffffff;
-    font-size: 95px;
-    line-height: 100px;
-    text-align: center;
-}
 
 .title h3 span {
     font-size: 120px;
@@ -106,4 +94,10 @@
     width: 24px;
     height: 24px;
     z-index: 2;
+}
+
+@media (max-width: 768px){
+    .general {
+        width: 110%;
+    }
 }

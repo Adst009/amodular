@@ -139,7 +139,7 @@
     -webkit-text-stroke-width: 0.4px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
     font-size: 77px;
-    font-family: 'Eina03';
+    font-family: 'IntegralCF';
     color: transparent;
     margin: -15px;
     padding-left: 8px;
@@ -181,7 +181,7 @@
 
 .cardGeneral_2 .content p{
     color: #ffffff;
-    font-family: Calibri;
+    font-family: Eina03;
 }
 
 .cardGeneral_2 .content a{
@@ -192,5 +192,69 @@
     width: 100%;
     height: 40px;
     color: #ffffff;
-    font-family: 'Integral-Bold';
+    font-family: 'IntegralCF';
+
+}
+.cardGeneral_2 a:hover {
+    background-color: #ffffff;
+    color: #e20613;
+    border: 1px solid #e20613;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+
+@media (max-width: 768px){
+    .cardGeneral_1 {
+        display: block;
+    }
+
+    .cardGeneral_1 h3 {
+        font-size: 30px;
+    }
+    .textoApoyo {
+        display: none;
+    }
+    .section:before {
+        display: none;
+    }
+    
+    .section:after {
+        display: none;
+    }
+    .cardGeneral_1 .cardImg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardGeneral_1{
+        padding: 0;
+    }
+    .cardGeneral_1 .content {
+        width: 94%;
+        position: relative;
+        left: 10px;
+        top:-40px;
+        border: 2px solid #e20613;
+        padding: 10px;
+        text-align: center;
+    }
+    .cardGeneral_1 .content h2 {
+        font-size: 30px;
+        color: #ffffff;
+        line-height: 30px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+    }
+    .cardGeneral_1 .cardImg img:nth-child(1),
+    .cardGeneral_1 .cardImg img:nth-child(2) {
+        height: 300px;
+    }
+    .cardGeneral_2{
+        margin-top: 75px;
+        flex-direction: column;
+    }
+    .general {
+        padding: 0;
+    }
 }
