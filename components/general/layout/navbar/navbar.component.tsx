@@ -65,12 +65,14 @@ const Navbar = () => {
   return (
     <div className="flex h-28 items-center place-content-around">
       <div className="inline-flex w-9/12 ">
-        <img
-          src="/images/home/logo.png"
-          className="h-18 mr-3"
-          alt="logo_amodular"
-          title="logo_amodular"
-        />
+        <Link href="/">
+          <img
+            src="/images/home/logo.png"
+            className="h-18 mr-3"
+            alt="logo_amodular"
+            title="logo_amodular"
+          />
+        </Link>
 
         <div className={"w-full flex items-center pl-10 " + styles.list_menu}>
           <ul
@@ -154,11 +156,7 @@ const Navbar = () => {
                   {services2?.map((item: any, index: number) => {
                     return (
                       <li key={index}>
-                        <Link
-                          key={index}
-                          href={item.url}
-                          title={item.title}
-                        >
+                        <Link key={index} href={item.url} title={item.title}>
                           <a className={"navbar-brand"} title={item.title}>
                             {item.title}
                           </a>
