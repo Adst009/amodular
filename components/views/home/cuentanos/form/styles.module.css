@@ -29,3 +29,11 @@
     background-color: #ffffff;
     color: #e20613;
 }
+
+@media (max-width: 768px){
+    .item_input{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

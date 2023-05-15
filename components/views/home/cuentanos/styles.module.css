@@ -32,23 +32,9 @@
     z-index: 4;
 }
 
-.general{
-    display: flex;
-    align-items: center;
-    gap: 80px;
-    width: 85%;
-}
 
-
-
-.content h2 {
-    font-size: 79px;
-    color: #ffffff;
-    line-height: 80px;
-}
-
-.content  h3 {
-    position: relative;
-    font-size: 108px;
-    line-height: 80px;
+@media (min-width: 768px){
+    .title_main {
+        line-height: 4.5rem;
+    }
 }

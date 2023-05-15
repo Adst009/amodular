@@ -31,6 +31,6 @@ export default function SwiperJs({children}: any) {
             <a className={styles.pagination} type="button" onClick={() => swiperRef.current?.slideNext()}>
                 <i className='bx bx-right-arrow-alt'></i>
             </a>
-        </Swiper>
+        </Swiper> 
     );
 }
