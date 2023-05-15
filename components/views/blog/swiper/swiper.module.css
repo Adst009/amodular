@@ -55,3 +55,9 @@
     display: block;
     transition: 0.7s;
 }
+
+@media (max-width: 640px) {
+    .badge {
+        right: 63px;
+    }
+}
