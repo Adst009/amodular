@@ -139,7 +139,7 @@
     -webkit-text-stroke-width: 0.4px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
     font-size: 77px;
-    font-family: 'Eina03';
+    font-family: 'IntegralCF';
     color: transparent;
     margin: -15px;
     padding-left: 8px;
@@ -181,7 +181,7 @@
 
 .cardGeneral_2 .content p{
     color: #ffffff;
-    font-family: Calibri;
+    font-family: Eina03;
 }
 
 .cardGeneral_2 .content a{
@@ -192,5 +192,13 @@
     width: 100%;
     height: 40px;
     color: #ffffff;
-    font-family: 'Integral-Bold';
+    font-family: 'IntegralCF';
+
+}
+.cardGeneral_2 a:hover {
+    background-color: #ffffff;
+    color: #e20613;
+    border: 1px solid #e20613;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
 }

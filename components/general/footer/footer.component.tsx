@@ -16,8 +16,11 @@ export default function Footer() {
 
           <h4>Sobre nosotros</h4>
           <p>
-            Lorem ipsum dolor sit amet, conse tetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut.
+            AMODULAR con trayectoria de 25 años ha logrado posicionarse como una de las principales empresas transformadoras
+            y desarrolladoras de mobiliario y ambientes personalizados para empresas, hogar, educativo
+            y hotelería con participación en más de cien proyectos a nivel nacional.
+
+
           </p>
         </div>
         <div className="w-80 md:w-60 lg:w-60 ">
@@ -33,7 +36,9 @@ export default function Footer() {
                 height={50}
                 title="logo ubicacion"
               />
-              <p>Calle 29a #22-44 Cartagena,Bolivar,Colombia</p>
+              <p>Calle 29a #22- 46, Esquina
+                Cartagena, Bolívar. Colombia.
+              </p>
             </div>
             <div className={styles.items}>
               <img
@@ -56,7 +61,8 @@ export default function Footer() {
                 title="logo horario"
               />
               <div>
-                <p>Horario de atención</p>
+                <p>Horario de atención <br/>
+                  09:00 am 07:00 pm</p>
               </div>
             </div>
           </div>

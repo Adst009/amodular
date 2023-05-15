@@ -26,10 +26,9 @@ export default function Resultados() {
                             <img src="/images/Personalize/res3.png" alt=""/>
                         </div>
                         <div className={styles.content}>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-                                quis nostrud exerci tation |ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                                consequat.</p>
+                            <p>¿Estás listo para ver cómo tu cocina pasa de ser una habitación ordinaria a un espacio
+                                excepcionalmente hermoso y funcional?
+                            </p>
                             <a href="#">Contactanos</a>
                         </div>
                     </div>

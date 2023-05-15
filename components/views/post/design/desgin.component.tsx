@@ -10,9 +10,21 @@ const Design = () => {
             "ml-[2px] flex flex-col flex-col-reverse  md:flex-row lg-flex md:gap-10 w-10/12 md:w-8/12 md:m-[-16px]"
           }
         >
-          <div className={"h-[318px] w-full md:w-7/12 p-4 bg-[#262526]"}>
+          <div className={"h-auto w-full md:w-7/12 p-4 bg-[#262526]"}>
             <h3 className="text-xl font-bold">MINIMALISMO</h3>
             <p className="pt-3">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+              suscipit quod et? Sit harum vitae modi perferendis, minus deleniti
+              adipisci autem, ipsa deserunt quisquam vel praesentium
+              repellendus, veritatis cumque minima.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+              suscipit quod et? Sit harum vitae modi perferendis, minus deleniti
+              adipisci autem, ipsa deserunt quisquam vel praesentium
+              repellendus, veritatis cumque minima.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
+              suscipit quod et? Sit harum vitae modi perferendis, minus deleniti
+              adipisci autem, ipsa deserunt quisquam vel praesentium
+              repellendus, veritatis cumque minima.
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
               suscipit quod et? Sit harum vitae modi perferendis, minus deleniti
               adipisci autem, ipsa deserunt quisquam vel praesentium
@@ -22,7 +34,7 @@ const Design = () => {
 
           <div className="w-full">
             <img
-              className="w-auto h-[370px] pb-14"
+              className="w-auto h-full object-cover"
               src="/images/blog/designs/design1.png"
               alt=""
             />
@@ -33,7 +45,7 @@ const Design = () => {
             "ml-[2px] flex flex-col flex-col-reverse  md:flex-row lg-flex md:gap-10 w-10/12 md:w-8/12 md:m-[-16px]"
           }
         >
-          <div className={"h-[318px] w-full md:w-7/12 p-4 bg-[#262526]"}>
+          <div className={"h-auto w-full md:w-7/12 p-4 bg-[#262526]"}>
             <h3 className="text-xl font-bold">INDUSTRIAL</h3>
             <p className="pt-3">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
@@ -56,7 +68,7 @@ const Design = () => {
             "ml-[2px] flex flex-col flex-col-reverse  md:flex-row lg-flex md:gap-10 w-10/12 md:w-8/12 md:m-[-16px]"
           }
         >
-          <div className={"h-[318px] w-full md:w-7/12 p-4 bg-[#262526]"}>
+          <div className={"h-auto w-full md:w-7/12 p-4 bg-[#262526]"}>
             <h3 className="text-xl font-bold">RÚSTICO</h3>
             <p className="pt-3">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
