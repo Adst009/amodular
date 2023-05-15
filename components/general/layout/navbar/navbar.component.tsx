@@ -5,46 +5,46 @@ import styles from "./navbar.module.css";
 const services = [
   {
     title: "Cocinas",
-    url: "",
+    url: "/",
   },
   {
     title: "Habitaciones",
-    url: "",
+    url: "/",
   },
   {
     title: "Salas",
-    url: "",
+    url: "/",
   },
   {
     title: "Baños",
-    url: "",
+    url: "/",
   },
   {
     title: "Terrazas",
-    url: "",
+    url: "/",
   },
   {
     title: "Balcones",
-    url: "",
+    url: "/",
   },
 ];
 
 const services2 = [
   {
     title: "Oficinas",
-    url: "",
+    url: "/corp",
   },
   {
     title: "Salas de juntas",
-    url: "",
+    url: "/corp",
   },
   {
     title: "Adecuaciones",
-    url: "",
+    url: "/corp",
   },
   {
     title: "Home office",
-    url: "",
+    url: "/corp",
   },
 ];
 
@@ -112,7 +112,7 @@ const Navbar = () => {
                   {services?.map((item: any, index: number) => {
                     return (
                       <li key={index}>
-                        <Link href={`/servicios${item.url}`} title={item.title}>
+                        <Link href={`${item.url}`} title={item.title}>
                           <a className={"navbar-brand"} title={item.title}>
                             {item.title}
                           </a>
@@ -156,7 +156,7 @@ const Navbar = () => {
                       <li key={index}>
                         <Link
                           key={index}
-                          href={`/servicios${item.url}`}
+                          href={item.url}
                           title={item.title}
                         >
                           <a className={"navbar-brand"} title={item.title}>
