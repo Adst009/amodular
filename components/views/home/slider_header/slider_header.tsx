@@ -16,7 +16,7 @@ export default function SliderHeader() {
                                         euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
                                         ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
                                         ut aliquip ex ea commodo consequat.</p>
-                                    <a href="#">Contactanos</a>
+                                    <a href="#">CONTÁCTANOS</a>
                                 </div>
                                 <img src="/images/slider_header/header_amodular_slider.jpg" alt=""/>
                             </div>
@@ -31,7 +31,7 @@ export default function SliderHeader() {
                                         euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
                                         ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
                                         ut aliquip ex ea commodo consequat.</p>
-                                    <a href="#">Contactanos</a>
+                                    <a href="#">CONTÁCTANOS</a>
                                 </div>
                                 <img src="/images/slider_header/header_amodular_slider.jpg" alt=""/>
                             </div>
