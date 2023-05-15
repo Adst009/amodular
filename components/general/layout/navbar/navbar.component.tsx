@@ -75,11 +75,11 @@ const Navbar = () => {
         <div className={"w-full flex items-center pl-10 " + styles.list_menu}>
           <ul
             className={
-              "w-full flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-5 " +
+              "w-full pt-20 xl:pt-2 flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row gap-5 " +
               menu
             }
           >
-            <div className="flex gap-6 lg:flex-grow">
+            <div className="flex flex-col lg:flex-col xl:flex-row 2xl:flex-row  gap-6 xl:flex-grow">
               <div className={styles.dropdown}>
                 <li>
                   <Link href={`/`} title="sdfsafsdf">
@@ -131,7 +131,7 @@ const Navbar = () => {
                         data-dropdown-toggle="dropdownNavbar"
                         className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                       >
-                        Corporativo{" "}
+                        Corporativo
                         <svg
                           className="w-5 h-5"
                           aria-hidden="true"
@@ -178,27 +178,38 @@ const Navbar = () => {
               </li>
             </div>
 
-            <div className="flex-initial w-32 items-center ">
-              <div className={"flex w-auto gap-4 " + styles.socials_mob}>
-                <a href="https://www.instagram.com/amodular.col/" target='_blank'>
-                  <img 
-                  src={"./images/instagram.png"}
-                  alt={"logo instagram"}
-                  width={30}
-                  height={30}
-                  title="logo instagram"
-                /></a>
-                
-                <a href="https://www.facebook.com/Amodular.Arquitectura.Interior/" target='_blank'>
+            <div className="flex-initial w-full xl:w-32 ">
+              <div
+                className={
+                  "flex flex-col items-center content-center w-auto gap-4 xl:flex-row xl:flex-row 2xl:flex-row " +
+                  styles.socials_mob
+                }
+              >
+                <a
+                  href="https://www.instagram.com/amodular.col/"
+                  target="_blank"
+                >
                   <img
-                  src={"./images/facebook.png"}
-                  alt={"logo facebook"}
-                  width={30}
-                  height={30}
-                  title="logo facebook"
-                /></a>
-                
-               
+                    src={"./images/instagram.png"}
+                    alt={"logo instagram"}
+                    width={30}
+                    height={30}
+                    title="logo instagram"
+                  />
+                </a>
+
+                <a
+                  href="https://www.facebook.com/Amodular.Arquitectura.Interior/"
+                  target="_blank"
+                >
+                  <img
+                    src={"./images/facebook.png"}
+                    alt={"logo facebook"}
+                    width={30}
+                    height={30}
+                    title="logo facebook"
+                  />
+                </a>
               </div>
             </div>
           </ul>

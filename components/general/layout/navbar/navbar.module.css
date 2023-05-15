@@ -121,11 +121,11 @@
     .menu ul li {
         opacity: 0;
     }
-    .list_menu ul{
 
+    /* .list_menu ul{
         padding-top: 50px;
         color: #FFFFFF;
-    }
+    } */
 
     .menuActive {
         background-color: #009DFF;
