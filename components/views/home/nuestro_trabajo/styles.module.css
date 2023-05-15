@@ -93,9 +93,10 @@
     cursor: pointer;
 }
 
-
-
-
+.callToAction svg {
+    width: 79px;
+    height: 92px;
+}
 
 
 .content h2 {
