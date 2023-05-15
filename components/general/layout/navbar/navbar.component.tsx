@@ -68,7 +68,7 @@ const Navbar = () => {
         <Link href="/">
           <img
             src="/images/home/logo.png"
-            className="h-18 mr-3"
+            className="h-18 mr-3 cursor-pointer"
             alt="logo_amodular"
             title="logo_amodular"
           />
