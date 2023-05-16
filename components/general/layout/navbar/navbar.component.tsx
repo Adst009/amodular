@@ -64,7 +64,7 @@ const Navbar = () => {
 
   return (
     <div className="flex h-28 items-center place-content-around">
-      <div className="inline-flex w-9/12 ">
+      <div className="inline-flex w-10/12 ">
         <Link href="/">
           <img
             src="/images/home/logo.png"
@@ -77,11 +77,11 @@ const Navbar = () => {
         <div className={"w-full flex items-center pl-10 " + styles.list_menu}>
           <ul
             className={
-              "w-full pt-20 xl:pt-2 flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row gap-5 " +
+              "w-full pt-20 md:pt-2 flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-5 " +
               menu
             }
           >
-            <div className="flex flex-col lg:flex-col xl:flex-row 2xl:flex-row  gap-6 xl:flex-grow">
+            <div className="flex flex-col lg:flex-row lg:flex-grow xl:flex-row 2xl:flex-row  gap-6  xl:flex-grow">
               <div className={styles.dropdown}>
                 <li>
                   <Link href={`/`} title="sdfsafsdf">
@@ -166,7 +166,7 @@ const Navbar = () => {
                   })}
                 </div>
               </div>
-              <li className={styles.blog_item}>
+              <li className={"pl-4 md:pl-0 " + styles.blog_item}>
                 <Link
                   href="/blog"
                   className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
@@ -176,10 +176,10 @@ const Navbar = () => {
               </li>
             </div>
 
-            <div className="flex-initial w-full xl:w-32 ">
+            <div className="flex-initial w-full md:w-32 ">
               <div
                 className={
-                  "flex flex-col items-center content-center w-auto gap-4 xl:flex-row xl:flex-row 2xl:flex-row " +
+                  "flex flex-col items-center content-center w-auto gap-4 md:flex-row xl:flex-row xl:flex-row 2xl:flex-row " +
                   styles.socials_mob
                 }
               >
