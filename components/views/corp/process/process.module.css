@@ -1,7 +1,7 @@
 .section:before {
     content: '';
     position: absolute;
-    top: 490px;
+    top: 900px;
     right: 6.7%;
     width: 28px;
     height: 30px;
@@ -38,5 +38,5 @@
     .title_main {
         line-height: 4.5rem;
     }
-
+    
 }
