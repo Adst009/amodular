@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Navigation, Pagination } from "swiper";
+import Link from "next/link";
 
 const lisTrends = [
   {
@@ -97,7 +98,7 @@ const SwiperCorp = () => {
           {lisTrends.map(
             ({ title, title2, description, button, imageUrl }, index) => (
               <SwiperSlide key={index}>
-                <a href="/post">
+                <Link href="/post">
                   <div className={"px-10 sm:px-0 " + styles.SwiperSlide}>
                     <img src={imageUrl} alt="image3" />
                     <div
@@ -124,7 +125,7 @@ const SwiperCorp = () => {
                       <button>{button}</button>
                     </div>
                   </div>
-                </a>
+                </Link>
               </SwiperSlide>
             )
           )}
