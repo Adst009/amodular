@@ -117,7 +117,7 @@ const SwiperCorp = () => {
                       }
                     >
                       <h3 className="font-bold text-lg">
-                        <strong className="text-red-600">{title}</strong>{" "}
+                        <strong className="text-red-600">{title}</strong>
                         {title2}
                       </h3>
                       <p className="text-sm w-11/12">{description}</p>
