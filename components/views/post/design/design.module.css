@@ -18,9 +18,8 @@
 
 .textoApoyo {
     position: absolute;
-
-    bottom: 220px ;
-    left: 422px;
+    bottom: 230px ;
+    left: 322px;
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -28,11 +27,12 @@
 }
 
 .textoApoyo span {
-    -webkit-text-stroke-width: 0.4px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgb(255 255 255 / 28%);
     font-size: 72px;
     font-family: 'IntegralCF';
     color: transparent;
-    margin: -15px;
-    padding-left: 8px;
+    margin: -30px;
+    padding-left: 21px;
+    line-height: 0px;
 }

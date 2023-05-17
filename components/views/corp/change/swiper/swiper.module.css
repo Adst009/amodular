@@ -32,7 +32,7 @@
     color: white;
 }
 
-.Swiper:before {
+/* .Swiper:before {
     content: '';
     position: absolute;
     top: 0;
@@ -40,9 +40,9 @@
     background-color: #ffffff;
     width: 1px;
     height: 100%;
-}
+} */
 
-.Swiper:after {
+/* .Swiper:after {
     content: '';
     position: absolute;
     top: 0;
@@ -50,7 +50,7 @@
     background-color: #ffffff;
     width: 1px;
     height: 100%;
-}
+} */
 
 .SwiperSlide button{
     background-color: red;
@@ -110,29 +110,10 @@
 
 
 @media (max-width: 640px) {
-    .Swiper:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 7.50%;
-        background-color: #ffffff;
-        width: 1px;
-        height: 100%;
-    }
-    
-    .Swiper:after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 7.50%;
-        background-color: #ffffff;
-        width: 1px;
-        height: 100%;
-    }
     .pagination{
-        left: 54%;
+        left: 56%;
     }
     .pagination2{
-        left: 30%;
+        left: 26%;
     }
 }

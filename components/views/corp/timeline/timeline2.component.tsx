@@ -13,7 +13,7 @@ const Timeline2 = ({title, description, number}:any) => {
       </div>
       <div className="flex-col w-6/12 pt-[210px]">
         <h2 className="text-9xl text-white text-left z-10 relative">{number}</h2>
-        <div className="bg-[red] ml-2 md:ml-20 mr-[-20px] lg:mr-60 mt-[60px] p-4">
+        <div className="relative z-50 bg-[red] ml-2 md:ml-20 mr-[-20px] lg:mr-60 mt-[60px] p-4">
           <h3 className="font-extrabold text-lg">{title}</h3>
           <p className="w-12/12">
             {description}

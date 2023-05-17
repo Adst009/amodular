@@ -5,6 +5,11 @@
     
 }
 
+.border {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
 .title_main {
     line-height: 2.5rem;
 }
@@ -13,7 +18,7 @@
     background-color: #e20613;
 }
 
-.container_text:before {
+/* .container_text:before {
     content: '';
     position: absolute;
     top: 0;
@@ -22,9 +27,9 @@
     width: 1px;
     height: 100%;
     z-index: 1;
-}
+} */
 
-.container_text:after {
+/* .container_text:after {
     content: '';
     position: absolute;
     top: 0;
@@ -33,5 +38,5 @@
     width: 1px;
     height: 100%;
     z-index: 1;
-}
+} */
 
