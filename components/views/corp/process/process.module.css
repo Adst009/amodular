@@ -1,3 +1,31 @@
+.section:before {
+    content: '';
+    position: absolute;
+    top: 490px;
+    right: 6.7%;
+    width: 28px;
+    height: 30px;
+    background-image: url("/images/apoyo_grafico/circle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 4;
+    background-color: #323032;
+}
+.section:after {
+    content: '';
+    position: absolute;
+    top: 1500px;
+    left: 6.3%;
+    width: 29px;
+    height: 228px;
+    background-image: url("/images/apoyo_grafico/linea-recta-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 999;
+    background-color: #323032;
+}
+
+
 .title_main {
     line-height: 2.5rem;
 }
