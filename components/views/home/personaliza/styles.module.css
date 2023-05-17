@@ -81,6 +81,7 @@
     width: 24px;
     height: 24px;
     z-index: 2;
+    background-color: #323032;
 }
 
 .slider:after {
@@ -94,6 +95,7 @@
     width: 24px;
     height: 24px;
     z-index: 2;
+    background-color: #323032;
 }
 
 @media (max-width: 768px){

@@ -7,13 +7,12 @@ export default function Footer() {
     <>
       <div
         className={
-          styles.content_footer + " mb-36 flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row h-96 justify-center gap-10 pt-20 " +
+          styles.content_footer + " pb-36 flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row h-96 justify-center gap-10 pt-20 " +
           (route.asPath === "/" ? styles.content_line : " ")
         }
       >
-        <div className={"w-80 md:w-60 md:h-64 lg:w-64 " + styles.margin_footer}>
+        <div className={" flex flex-col gap-10 w-80 md:w-60 md:h-64 lg:w-64 " + styles.margin_footer}>
           <img src="/images/logo.png" alt="Amodular" title="amodular" />
-
           <h4>Sobre nosotros</h4>
           <p>
             AMODULAR con trayectoria de 25 años ha logrado posicionarse como una de las principales empresas transformadoras

@@ -11,11 +11,11 @@ const Timeline2 = ({title, description, number}:any) => {
       >
         <img src="/images/corp/timeline/timeline2_1.png" alt="timeline1" />
       </div>
-      <div className="flex-col w-6/12 pt-[190px]">
+      <div className="flex-col w-6/12 pt-[210px]">
         <h2 className="text-9xl text-white text-left z-10 relative">{number}</h2>
         <div className="bg-[red] ml-2 md:ml-20 mr-[-20px] lg:mr-60 mt-[60px] p-4">
           <h3 className="font-extrabold text-lg">{title}</h3>
-          <p className="w-10/12">
+          <p className="w-12/12">
             {description}
           </p>
         </div>

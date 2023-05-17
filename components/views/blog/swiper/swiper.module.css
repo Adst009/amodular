@@ -1,6 +1,27 @@
 .Swiper {
-    height: 100%;
+    height: auto;
     margin-left: -10px !important;
+    margin-bottom: 100px;
+}
+
+
+.pagination{
+    position: absolute;
+    color: #e20613;
+    z-index: 999;
+    left: 52%;
+    bottom: -25px;
+    font-size: 60px;
+    cursor: pointer;
+}
+.pagination2{
+    position: absolute;
+    color: #e20613;
+    z-index: 999;
+    left: 45%;
+    bottom: -25px;
+    font-size: 60px;
+    cursor: pointer;
 }
 
 .SwiperSlide {
@@ -14,7 +35,7 @@
 
 .badge {
     position: absolute;
-    top: 30px;
+    top: 27px;
     right: 25px;
     width: 51px;
     font-weight: 800;
@@ -25,10 +46,8 @@
 .SwiperSlide button{
     border: 1px solid red;
     padding: 4px 10px;
-    margin: 20px 0;
+    margin-top: 10px;
     font-weight: 800;
-    display: none;
-    transition: 0.8s;
 }
 
 .SwiperSlide:hover {
@@ -39,7 +58,7 @@
 .SwiperSlide img{
     display: block;
     width: 100%;
-    height: 400px;
+    height: 350px;
     object-fit: cover;
 }
 
@@ -56,8 +75,29 @@
     transition: 0.7s;
 }
 
+@media (min-width: 1300px) {
+    .badge {
+        top: 11px;
+        right: 65px;
+    }
+}
+@media (max-width: 980px) {
+    .pagination{
+        left: 54%;
+    }
+    .pagination2{
+        left: 39%;
+    }
+}
+
 @media (max-width: 640px) {
     .badge {
         right: 63px;
+    }
+    .pagination{
+        left: 54%;
+    }
+    .pagination2{
+        left: 30%;
     }
 }
