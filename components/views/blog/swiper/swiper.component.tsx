@@ -99,7 +99,7 @@ const SwiperCorp = () => {
             ({ title, title2, description, button, imageUrl }, index) => (
               <SwiperSlide key={index}>
                 <Link href="/post">
-                  <div className={"px-10 sm:px-0 " + styles.SwiperSlide}>
+                  <div className={"relative px-10 sm:px-0 " + styles.SwiperSlide}>
                     <img src={imageUrl} alt="image3" />
                     <div
                       className={
