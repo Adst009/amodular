@@ -5,7 +5,7 @@ import styles from "./blog.module.css";
 
 const Blog = () => {
   return (
-    <div className={styles.container}>
+    <div className={"relative " + styles.container}>
       <Navbar />
       <div
         className={
