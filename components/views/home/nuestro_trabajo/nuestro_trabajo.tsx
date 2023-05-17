@@ -16,7 +16,7 @@ export default function NuestroTrabajo() {
             <SwiperJs>
               <SwiperSlide>
                 <div className={styles.card}>
-                  <img src="/images/Personalize/res1.png" alt="" />
+                  <img src="/images/Personalize/res1.png" alt="rest1" title="rest1"/>
                   <div className={styles.callToAction}>
                     <svg
                       viewBox="0 0 32 32"
@@ -36,7 +36,7 @@ export default function NuestroTrabajo() {
 
               <SwiperSlide>
                 <div className={styles.card}>
-                  <img src="/images/Personalize/res1.png" alt="" />
+                  <img src="/images/Personalize/res1.png" alt="rest1" title="rest1"/>
                   <div className={styles.callToAction}>
                   <svg
                       viewBox="0 0 32 32"
@@ -55,7 +55,7 @@ export default function NuestroTrabajo() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className={styles.card}>
-                  <img src="/images/Personalize/res1.png" alt="" />
+                  <img src="/images/Personalize/res1.png" alt="rest1" title="rest1" />
                   <div className={styles.callToAction}>
                   <svg
                       viewBox="0 0 32 32"
@@ -74,7 +74,7 @@ export default function NuestroTrabajo() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className={styles.card}>
-                  <img src="/images/Personalize/res1.png" alt="" />
+                  <img src="/images/Personalize/res1.png" alt="rest1" title="rest1" />
                   <div className={styles.callToAction}>
                   <svg
                       viewBox="0 0 32 32"
@@ -93,7 +93,7 @@ export default function NuestroTrabajo() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className={styles.card}>
-                  <img src="/images/Personalize/res1.png" alt="" />
+                  <img src="/images/Personalize/res1.png" alt="rest1" title="rest1" />
                   <div className={styles.callToAction}>
                   <svg
                       viewBox="0 0 32 32"
@@ -112,7 +112,7 @@ export default function NuestroTrabajo() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className={styles.card}>
-                  <img src="/images/Personalize/res1.png" alt="" />
+                  <img src="/images/Personalize/res1.png" alt="rest1" title="rest1" />
                   <div className={styles.callToAction}>
                   <svg
                       viewBox="0 0 32 32"
@@ -144,7 +144,7 @@ export default function NuestroTrabajo() {
             </p>
             <a href="#">Contáctanos</a>
             <div className={styles.mundo}>
-              <img src="/images/apoyo_grafico/mundo.png" alt="" />
+              <img src="/images/apoyo_grafico/mundo.png" alt="world" title="world" />
             </div>
           </div>
         </div>

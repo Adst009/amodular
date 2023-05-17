@@ -40,7 +40,8 @@ const CorpPage = () => {
             <img
               className="w-8/12 md:w-4/12 "
               src="./images/corp/remodel.png"
-              alt=""
+              alt="remodel"
+              title="remodel"
             />
           </div>
         </div>

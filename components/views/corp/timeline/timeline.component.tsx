@@ -18,7 +18,7 @@ const Timeline = ({title, description, number}:any) => {
           styles.container_img
         }
       >
-        <img src="/images/corp/timeline/timeline1_1.png" alt="timeline1" />
+        <img src="/images/corp/timeline/timeline1_1.png" alt="timeline1" title="timeline1"/>
       </div>
     </div>
   );

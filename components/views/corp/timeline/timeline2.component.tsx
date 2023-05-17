@@ -9,7 +9,7 @@ const Timeline2 = ({title, description, number}:any) => {
           styles.container_img
         }
       >
-        <img src="/images/corp/timeline/timeline2_1.png" alt="timeline1" />
+        <img src="/images/corp/timeline/timeline2_1.png" alt="timeline2" title="timeline2"/>
       </div>
       <div className="flex-col w-6/12 pt-[210px]">
         <h2 className="text-9xl text-white text-left z-10 relative">{number}</h2>

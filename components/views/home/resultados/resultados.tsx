@@ -16,14 +16,14 @@ export default function Resultados() {
                             <h3>resultados</h3>
                         </div>
                         <div className={styles.cardImg}>
-                            <img src="/images/Personalize/res1.png" alt=""/>
-                            <img src="/images/Personalize/res2.png" alt=""/>
+                            <img src="/images/Personalize/res1.png" alt="rest1" title='rest1'/>
+                            <img src="/images/Personalize/res2.png" alt="rest2" title='rest2'/>
                         </div>
                     </div>
 
                     <div className={styles.cardGeneral_2}>
                         <div className={styles.singleImg}>
-                            <img src="/images/Personalize/res3.png" alt=""/>
+                            <img src="/images/Personalize/res3.png" alt="res3" title='res3'/>
                         </div>
                         <div className={styles.content}>
                             <p>¿Estás listo para ver cómo tu cocina pasa de ser una habitación ordinaria a un espacio

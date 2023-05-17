@@ -102,7 +102,7 @@ const SwiperCorp = () => {
                     <path d="M16,22.5a.5.5,0,0,1-.5-.5V10a.5.5,0,0,1,1,0V22A.5.5,0,0,1,16,22.5Z" />
                   </g>
                 </svg>
-                <img src={imageUrl} alt="image3" />
+                <img src={imageUrl} alt="image3" title="image3" />
                 <div
                   className={
                     "bg-zinc-700  border-b-2 border-l-2 border-r-2 border-red-700 mt-[-22px] p-3 " +

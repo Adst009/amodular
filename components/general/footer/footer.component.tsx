@@ -74,7 +74,7 @@ export default function Footer() {
               <h4>Redes sociales</h4>
             </div>
             <div className={styles.items}>
-              <a href="https://www.instagram.com/amodular.col/" target="_blank">
+              <a href="https://www.instagram.com/amodular.col/" target="_blank" title="instagram">
                 <img
                   src={"./images/instagram.png"}
                   alt={"logo instagram"}
@@ -85,7 +85,7 @@ export default function Footer() {
               </a>
               <a
                 href="https://www.facebook.com/Amodular.Arquitectura.Interior/"
-                target="_blank"
+                target="_blank" title="facebook"
               >
                 <img
                   src={"./images/facebook.png"}

@@ -15,7 +15,8 @@ function Trend() {
           <img
             className={"w-9/12 md:w-8/12 h-[15rem] md:h-[25rem]"}
             src="/images/blog/trend4.png"
-            alt=""
+            alt="trend"
+            title="trend"
           />
         </div>
       </div>

@@ -100,7 +100,7 @@ const SwiperCorp = () => {
               <SwiperSlide key={index}>
                 <Link href="/post">
                   <div className={"relative px-10 sm:px-0 " + styles.SwiperSlide}>
-                    <img src={imageUrl} alt="image3" />
+                    <img src={imageUrl} alt="image3" title="sliderImage" />
                     <div
                       className={
                         "flex flex-col items-center justify-center bg-red-600 text-white font-[Eina03] " +
