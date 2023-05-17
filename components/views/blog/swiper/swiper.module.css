@@ -75,12 +75,12 @@
     transition: 0.7s;
 }
 
-@media (min-width: 1300px) {
+/* @media (min-width: 1300px) {
     .badge {
         top: 11px;
         right: 65px;
     }
-}
+} */
 @media (max-width: 980px) {
     .pagination{
         left: 54%;
