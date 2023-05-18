@@ -160,4 +160,9 @@
     .content h2 span {
         font-size: 105px;
     }
+    .general:after {
+        right: -20px;
+
+    }
+    
 }

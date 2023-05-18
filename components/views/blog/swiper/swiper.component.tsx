@@ -117,10 +117,10 @@ const SwiperCorp = () => {
                         styles.container_text
                       }
                     >
-                      <h3 className="font-bold text-lg">
+                      <h2 className="font-bold text-lg">
                         <strong className="text-red-600">{title}</strong>
-                        {title2}
-                      </h3>
+                        &nbsp;{title2}
+                      </h2>
                       <p className="text-sm w-11/12">{description}</p>
                       <button>{button}</button>
                     </div>
@@ -145,7 +145,7 @@ const SwiperCorp = () => {
           <i className="bx bx-left-arrow-alt"></i>
         </a>
       </Swiper>
-      <hr className="overflow-hidden ml-[475px]" />
+      <hr className="overflow-hidden md:ml-[275px] xl:ml-[500px] " />
     </div>
   );
 };

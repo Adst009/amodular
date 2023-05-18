@@ -33,6 +33,20 @@
     font-family: 'IntegralCF';
     color: transparent;
     margin: -30px;
-    padding-left: 21px;
+    padding-left: 50px;
     line-height: 0px;
+}
+
+
+@media (min-width: 1400px) {
+    .textoApoyo span {
+        padding-left: 325px;
+    }
+}
+
+
+@media (max-width: 920px) {
+    .textoApoyo span{
+        display: none;
+    }
 }

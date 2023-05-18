@@ -12,7 +12,7 @@ const Design = () => {
         >
           <div
             className={
-              "h-auto w-full md:w-8/12 p-4 bg-[#262526] " + styles.div_subtitles
+              "h-auto w-full md:w-10/12 p-4 bg-[#262526] " + styles.div_subtitles
             }
           >
             <h3 className="flex text-xl font-bold">
@@ -43,7 +43,7 @@ const Design = () => {
         >
           <div
             className={
-              "h-auto w-full md:w-8/12 p-4 bg-[#262526] " + styles.div_subtitles
+              "h-auto w-full md:w-10/12 p-4 bg-[#262526] " + styles.div_subtitles
             }
           >
             <h3 className="flex text-xl font-bold">
@@ -74,7 +74,7 @@ const Design = () => {
         >
           <div
             className={
-              "h-[265px] w-full md:w-8/12 p-4 bg-[#262526] " +
+              "h-[265px] w-full md:w-10/12 p-4 bg-[#262526] " +
               styles.div_subtitles
             }
           >
