@@ -18,7 +18,7 @@ export default function SliderHeader() {
                                         ut aliquip ex ea commodo consequat.</p>
                                     <a href="#">CONTÁCTANOS</a>
                                 </div>
-                                <img src="/images/slider_header/header_amodular_slider.jpg" alt=""/>
+                                <img src="/images/slider_header/header_amodular_slider.jpg" alt="header_amodular" title='header_amodular'/>
                             </div>
                         </SwiperSlide>
 
@@ -33,7 +33,7 @@ export default function SliderHeader() {
                                         ut aliquip ex ea commodo consequat.</p>
                                     <a href="#">CONTÁCTANOS</a>
                                 </div>
-                                <img src="/images/slider_header/header_amodular_slider.jpg" alt=""/>
+                                <img src="/images/slider_header/header_amodular_slider.jpg" alt="header_amodular" title='header_amodular'/>
                             </div>
                         </SwiperSlide>
                     </SwiperJs>

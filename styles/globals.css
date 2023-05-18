@@ -8,6 +8,11 @@
 }
 
 @font-face {
+  font-family: 'Eina01-regular';
+  src: url('/fonts/Eina01-regular.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Eina02';
   src: url('/fonts/Eina02-SemiBold.ttf') format('truetype');
 }
@@ -72,7 +77,7 @@ a {
 
 p{
   font-size: 14px;
-  font-family: Voyage, sans-serif;
+  font-family: EinaEina01-regular, sans-serif;
   color: white;
 }
 
@@ -87,9 +92,13 @@ h1,h2 {
 h4{
   font-family: IntegralCF, sans-serif;
 }
-button {
-  /* font-family:IntegralCF, sans-serif; */
+
+@media (max-width: 640px) {
+  .paginacionPersonalizadafraction {
+    left: 120px;
+  }
 }
+
 
 
 

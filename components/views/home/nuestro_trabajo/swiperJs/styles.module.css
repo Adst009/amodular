@@ -7,3 +7,10 @@
     font-size: 60px;
     cursor: pointer;
 }
+
+
+@media (max-width: 640px) {
+    .pagination{
+        left: 73%;
+    }
+}

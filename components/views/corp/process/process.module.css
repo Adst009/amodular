@@ -15,7 +15,7 @@
     content: '';
     position: absolute;
     top: 1500px;
-    left: 6.3%;
+    left: 6.7%;
     width: 29px;
     height: 228px;
     background-image: url("/images/apoyo_grafico/linea-recta-1.png");
@@ -37,6 +37,16 @@
 @media (min-width: 768px){
     .title_main {
         line-height: 4.5rem;
+    }
+    
+}
+
+@media (max-width: 648px){
+    .section:before {
+        display: none;
+    }
+    .section:after {
+        display: none;
     }
     
 }

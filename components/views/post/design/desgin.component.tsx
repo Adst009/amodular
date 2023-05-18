@@ -12,11 +12,11 @@ const Design = () => {
         >
           <div
             className={
-              "h-auto w-full md:w-8/12 p-4 bg-[#262526] " + styles.div_subtitles
+              "h-auto w-full md:w-10/12 p-4 bg-[#262526] " + styles.div_subtitles
             }
           >
             <h3 className="flex text-xl font-bold">
-              <img src="/images/apoyo_grafico/circle_start.png" alt="" /> &nbsp;
+              <img src="/images/apoyo_grafico/circle_start.png" alt="circle_start" title="circle_start" /> &nbsp;
               MINIMALISMO
             </h3>
             <p className="pt-3 xl:pl-8 ">
@@ -31,7 +31,8 @@ const Design = () => {
             <img
               className="w-auto h-full object-cover"
               src="/images/blog/designs/design1.png"
-              alt=""
+              alt="design1"
+              title="design1"
             />
           </div>
         </div>
@@ -42,12 +43,11 @@ const Design = () => {
         >
           <div
             className={
-              "h-auto w-full md:w-8/12 p-4 bg-[#262526] " + styles.div_subtitles
+              "h-auto w-full md:w-10/12 p-4 bg-[#262526] " + styles.div_subtitles
             }
           >
             <h3 className="flex text-xl font-bold">
-              {" "}
-              <img src="/images/apoyo_grafico/circle_start.png" alt="" /> &nbsp;
+              <img src="/images/apoyo_grafico/circle_start.png" alt="circle_start" title="circle_start" /> &nbsp;
               INDUSTRIAL
             </h3>
             <p className="pt-3 xl:pl-8 ">
@@ -62,7 +62,8 @@ const Design = () => {
             <img
               className="w-auto h-full object-cover"
               src="/images/blog/designs/design2.png"
-              alt=""
+              alt="design2"
+              title="design2"
             />
           </div>
         </div>
@@ -73,12 +74,12 @@ const Design = () => {
         >
           <div
             className={
-              "h-[265px] w-full md:w-8/12 p-4 bg-[#262526] " +
+              "h-[265px] w-full md:w-10/12 p-4 bg-[#262526] " +
               styles.div_subtitles
             }
           >
             <h3 className="flex text-xl font-bold">
-              <img src="/images/apoyo_grafico/circle_start.png" alt="" /> &nbsp;
+              <img src="/images/apoyo_grafico/circle_start.png" alt="circle__start" title="circle_start" /> &nbsp;
               RÚSTICO
             </h3>
             <p className="pt-3 xl:pl-8 ">
@@ -93,7 +94,8 @@ const Design = () => {
             <img
               className="w-auto h-full object-cover"
               src="/images/blog/designs/design3.png"
-              alt=""
+              alt="design3"
+              title="design3"
             />
           </div>
         </div>

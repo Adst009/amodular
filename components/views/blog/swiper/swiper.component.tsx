@@ -100,7 +100,7 @@ const SwiperCorp = () => {
               <SwiperSlide key={index}>
                 <Link href="/post">
                   <div className={"relative px-10 sm:px-0 " + styles.SwiperSlide}>
-                    <img src={imageUrl} alt="image3" />
+                    <img src={imageUrl} alt="image3" title="sliderImage" />
                     <div
                       className={
                         "flex flex-col items-center justify-center bg-red-600 text-white font-[Eina03] " +
@@ -117,10 +117,10 @@ const SwiperCorp = () => {
                         styles.container_text
                       }
                     >
-                      <h3 className="font-bold text-lg">
+                      <h2 className="font-bold text-lg">
                         <strong className="text-red-600">{title}</strong>
-                        {title2}
-                      </h3>
+                        &nbsp;{title2}
+                      </h2>
                       <p className="text-sm w-11/12">{description}</p>
                       <button>{button}</button>
                     </div>
@@ -145,7 +145,7 @@ const SwiperCorp = () => {
           <i className="bx bx-left-arrow-alt"></i>
         </a>
       </Swiper>
-      <hr className="overflow-hidden ml-[475px]" />
+      <hr className="overflow-hidden md:ml-[275px] xl:ml-[500px] " />
     </div>
   );
 };
